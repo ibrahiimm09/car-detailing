@@ -45,26 +45,32 @@ const servicesList = [
 
 export default function HeroSection() {
   return (
-    <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden bg-neutral-950 py-12 sm:py-16 lg:py-20 ">
+    <section className="relative min-h-[52dvh] sm:min-h-[62dvh] md:min-h-[90vh] flex items-center justify-center overflow-hidden bg-neutral-950 py-8 sm:py-12 lg:py-20 ">
 
-      {/* Background Image with Contrast Overlays */}
-      <div className="absolute inset-0 z-0 pointer-events-none overflow-hidden">
-        <picture className="w-full h-full block">
-          <source
-            media="(max-width: 768px)"
-            srcSet={heroBackgroundMobile.src || heroBackgroundMobile}
-          />
-          <img
-            src={heroBackground.src || heroBackground}
-            alt="Dos Bros Auto Detailing Morris MN"
-            fetchPriority="high"
-            loading="eager"
-            decoding="async"
-            width="1920"
-            height="1080"
-            className="w-full h-full object-cover object-center opacity-35 sm:opacity-30 brightness-90 sm:brightness-75 scale-100 sm:scale-105"
-          />
-        </picture>
+      {/* Background Image – Mobile */}
+      <div className="absolute inset-x-0 top-0 h-[52dvh] sm:h-[62dvh] z-0 pointer-events-none overflow-hidden block md:hidden">
+        <img
+          src={heroBackgroundMobile.src || heroBackgroundMobile}
+          alt="Dos Bros Auto Detailing Morris MN"
+          fetchPriority="high"
+          loading="eager"
+          decoding="async"
+          className="w-full h-full object-cover object-center opacity-45 brightness-90"
+        />
+      </div>
+
+      {/* Background Image – Desktop */}
+      <div className="absolute inset-0 z-0 pointer-events-none overflow-hidden hidden md:block">
+        <img
+          src={heroBackground.src || heroBackground}
+          alt="Dos Bros Auto Detailing Morris MN"
+          fetchPriority="high"
+          loading="eager"
+          decoding="async"
+          width="1920"
+          height="1080"
+          className="w-full h-full object-cover object-center opacity-30 brightness-75 scale-105"
+        />
       </div>
 
       {/* Main Content Container */}
@@ -125,10 +131,10 @@ export default function HeroSection() {
               </a>
             </div>
 
-          </div>
+          </div>  
 
           {/* Right Column: "Our Services Include:" Sidebar Card (Strictly Locked Width) */}
-          <div className="lg:col-span-5 xl:col-span-4 w-full flex justify-center lg:justify-end">
+          <div className="lg:col-span-5 xl:col-span-4 w-full flex justify-center lg:justify-end lg:mb-0 mb-10">
             <div 
               className="relative rounded-2xl bg-neutral-950/85 border border-neutral-800/90 p-4 sm:p-5 lg:p-6 shadow-2xl backdrop-blur-xl w-full max-w-[380px]"
               style={{ maxWidth: '380px' }}
