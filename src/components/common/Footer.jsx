@@ -19,12 +19,12 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   const services = [
-    { name: 'Full Interior Revival', href: '' },
-    { name: 'Exterior Hand Wash & Seal', href: '' },
-    { name: 'Multi-Stage Paint Correction', href: '' },
-    { name: 'Ceramic & Graphene Coating', href: '' },
-    { name: 'Farm & Heavy Duty Equipment', href: '' },
-    { name: 'Odor & Pet Hair Removal', href: '' },
+    { name: 'Interior Detailing ', href: '' },
+    { name: 'Exterior & Hand Wash', href: '' },
+    { name: 'Full Detail Package', href: '' },
+    { name: 'Truck & Farm Vehicles ', href: '' },
+    { name: 'Fleet & Commercial ', href: '' },
+    { name: 'Boat & Pontoon Detailing', href: '' },
   ];
 
   const quickLinks = [
