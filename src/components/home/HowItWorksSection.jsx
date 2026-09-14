@@ -51,7 +51,7 @@ function StepCard({ item }) {
   return (
     <div className="w-full h-full min-h-95 group relative rounded-2xl bg-neutral-900/60 hover:bg-neutral-900/90 border border-neutral-800/80 hover:border-red-500/40 p-6 sm:p-8 transition-all duration-300 flex flex-col justify-between shadow-lg hover:shadow-xl hover:shadow-red-600/10 backdrop-blur-sm">
       {/* Step Number Watermark Accent */}
-      <div className="absolute top-5 right-6 text-3xl sm:text-4xl font-black text-neutral-800 group-hover:text-red-950/60 transition-colors font-['Outfit'] select-none">
+      <div className="absolute top-5 right-6 text-3xl sm:text-4xl font-black text-neutral-800 group-hover:text-red-950/60 transition-colors font-['Outfit'] ">
         {item.step}
       </div>
 
@@ -85,7 +85,7 @@ function StepCard({ item }) {
 
 export default function HowItWorksSection() {
   return (
-    <section id="how-it-works" className="relative bg-neutral-950 py-20 sm:py-24 lg:py-28 overflow-hidden select-none border-b border-neutral-800/80">
+    <section id="how-it-works" className="relative bg-neutral-950 py-20 sm:py-24 lg:py-28 overflow-hidden  border-b border-neutral-800/80">
       
       {/* Background Ambient Glow Accents */}
       <div className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-150 h-87.5 bg-red-600/5 blur-[140px] rounded-full pointer-events-none" />

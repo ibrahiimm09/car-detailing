@@ -80,8 +80,8 @@ export default function ServiceAreaSection2() {
         },
       }}
     >
-      <section id="service-area-tabs" className="relative bg-neutral-950 py-20 sm:py-24 lg:py-28 border-b border-neutral-800/80 overflow-hidden select-none">
-        
+      <section id="service-area-tabs" className="relative bg-neutral-950 py-20 sm:py-24 lg:py-28 border-b border-neutral-800/80 overflow-hidden ">
+      
         {/* Background Ambient Glow Accents */}
         <div className="absolute top-1/4 left-1/4 w-[600px] h-[350px] bg-red-600/5 blur-[150px] rounded-full pointer-events-none" />
         <div className="absolute bottom-1/4 right-1/4 w-[500px] h-[350px] bg-amber-500/5 blur-[140px] rounded-full pointer-events-none" />

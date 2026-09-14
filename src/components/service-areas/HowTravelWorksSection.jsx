@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function HowTravelWorksSection() {
   return (
-    <section className="relative w-full py-12 sm:py-16 lg:py-20 bg-neutral-950 overflow-hidden select-none">
+    <section className="relative w-full py-12 sm:py-16 lg:py-20 bg-neutral-950 overflow-hidden ">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
 
         <div className="relative rounded-2xl sm:rounded-3xl bg-gradient-to-br from-neutral-900/90 via-neutral-900/60 to-neutral-950 border border-neutral-800/90 p-6 sm:p-8 lg:p-10 shadow-2xl backdrop-blur-md overflow-hidden">

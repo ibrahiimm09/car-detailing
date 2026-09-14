@@ -26,7 +26,7 @@ const tableData = [
 
 export default function SpeedUpQuoteSection() {
   return (
-    <section className="relative bg-neutral-950 py-12 sm:py-16 lg:py-20 border-t border-neutral-900/80 overflow-hidden select-none">
+    <section className="relative bg-neutral-950 py-12 sm:py-16 lg:py-20 border-t border-neutral-900/80 overflow-hidden ">
       
       {/* Subtle Ambient Radial Glows */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">

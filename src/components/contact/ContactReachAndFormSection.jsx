@@ -129,7 +129,7 @@ export default function ContactReachAndFormSection() {
         },
       }}
     >
-      <section id="contact-booking" className="relative bg-neutral-950 py-12 sm:py-16 lg:py-20 border-t border-neutral-900/90 overflow-hidden select-none">
+      <section id="contact-booking" className="relative bg-neutral-950 py-12 sm:py-16 lg:py-20 border-t border-neutral-900/90 overflow-hidden ">
 
         {/* Subtle Ambient Radial Glows */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">

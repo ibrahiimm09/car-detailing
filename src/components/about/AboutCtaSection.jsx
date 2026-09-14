@@ -6,7 +6,7 @@ import {
 
 export default function AboutCtaSection() {
   return (
-    <section id="cta" className="relative bg-neutral-950 py-12 sm:py-16 lg:py-20 border-t border-neutral-800 select-none overflow-hidden">
+    <section id="cta" className="relative bg-neutral-950 py-12 sm:py-16 lg:py-20 border-t border-neutral-800  overflow-hidden">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Sleek Minimal Consultation Banner Card matching Cost Calculator CTA */}

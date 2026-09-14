@@ -26,7 +26,7 @@ const tableRows = [
 
 export default function WhatWeBringSection() {
   return (
-    <section id="what-we-bring" className="relative bg-neutral-950 py-16 sm:py-20 lg:py-24 overflow-hidden select-none border-t border-neutral-900/80">
+    <section id="what-we-bring" className="relative bg-neutral-950 py-16 sm:py-20 lg:py-24 overflow-hidden  border-t border-neutral-900/80">
       
       {/* Background Ambient Glow Accents */}
       <div className="absolute top-1/3 left-1/4 w-[450px] h-[350px] bg-red-600/5 blur-[140px] rounded-full pointer-events-none" />
@@ -102,7 +102,7 @@ export default function WhatWeBringSection() {
                         </span>
                       </div>
                     ) : (
-                      <span className="text-neutral-500 font-light text-xs sm:text-sm pl-6 sm:pl-8 select-none">
+                      <span className="text-neutral-500 font-light text-xs sm:text-sm pl-6 sm:pl-8 ">
                         —
                       </span>
                     )}

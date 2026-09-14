@@ -6,7 +6,7 @@ export default function AboutBrothersSection() {
   const imageSrc = typeof dosBrosImg === 'object' ? dosBrosImg.src : dosBrosImg;
 
   return (
-    <section id="about-brothers" className="relative bg-neutral-950 py-20 sm:py-24 lg:py-28 overflow-hidden select-none border-b border-neutral-800/80">
+    <section id="about-brothers" className="relative bg-neutral-950 py-20 sm:py-24 lg:py-28 overflow-hidden  border-b border-neutral-800/80">
       
       {/* Background Ambient Glow Accents */}
       <div className="absolute top-1/4 left-1/4 w-125 h-87.5 bg-red-600/5 blur-[140px] rounded-full pointer-events-none" />

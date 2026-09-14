@@ -52,7 +52,7 @@ const detailVsWashData = [
 
 export default function CarWashAndVacSection() {
   return (
-    <section id="car-wash-and-vac" className="relative bg-neutral-950 py-16 sm:py-20 lg:py-24 border-b border-neutral-900 overflow-hidden select-none">
+    <section id="car-wash-and-vac" className="relative bg-neutral-950 py-16 sm:py-20 lg:py-24 border-b border-neutral-900 overflow-hidden ">
       
       {/* Background Ambient Glow Accents */}
       <div className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-150 h-87.5 bg-red-600/5 blur-[140px] rounded-full pointer-events-none" />

@@ -99,7 +99,7 @@ function ConditionCard({ card }) {
 
 export default function WhyDifferentSection() {
   return (
-    <section id="why-different" className="relative bg-neutral-950 py-20 sm:py-24 lg:py-28 select-none border-b border-neutral-800/80">
+    <section id="why-different" className="relative bg-neutral-950 py-20 sm:py-24 lg:py-28  border-b border-neutral-800/80">
       
       {/* Background Ambient Glow Accents (isolated in overflow-hidden so sticky column is never broken) */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">

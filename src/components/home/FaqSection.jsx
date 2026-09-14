@@ -141,7 +141,7 @@ export default function FaqSection() {
         },
       }}
     >
-      <section id="faq" className="relative bg-neutral-950 py-20 sm:py-24 lg:py-28 overflow-hidden select-none border-b border-neutral-800/80">
+      <section id="faq" className="relative bg-neutral-950 py-20 sm:py-24 lg:py-28 overflow-hidden border-b border-neutral-800/80">
         
         {/* Ambient Background Glows */}
         <div className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-162.5 h-87.5 bg-red-600/5 blur-[150px] rounded-full pointer-events-none" />

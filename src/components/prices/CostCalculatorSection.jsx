@@ -387,7 +387,7 @@ export default function CostCalculatorSection() {
       }}
     >
       {/* SECTION ROOT: Notice no overflow-hidden so position:sticky works flawlessly */}
-      <section id="cost-calculator" className="relative bg-neutral-950 py-16 sm:py-20 lg:py-24 border-t border-neutral-900 select-none">
+      <section id="cost-calculator" className="relative bg-neutral-950 py-16 sm:py-20 lg:py-24 border-t border-neutral-900 ">
         
         {/* Subtle Ambient Radial Glows contained in isolated wrapper */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">

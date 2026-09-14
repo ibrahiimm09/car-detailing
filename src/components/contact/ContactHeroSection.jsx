@@ -7,7 +7,7 @@ export default function ContactHeroSection() {
   const imageSrc = typeof contactHeroImg === 'object' ? contactHeroImg.src : contactHeroImg;
 
   return (
-    <section className="relative w-full overflow-hidden select-none bg-neutral-950">
+    <section className="relative w-full overflow-hidden  bg-neutral-950">
 
       {/* ========================================================
           HERO UPPER SECTION
@@ -22,7 +22,7 @@ export default function ContactHeroSection() {
           <img
             src={imageSrc}
             alt="Contact Dos Bros Detailing - Morris, MN"
-            className="w-full h-full object-cover object-[20%_top] sm:object-[20%_center] lg:object-left select-none"
+            className="w-full h-full object-cover object-[20%_top] sm:object-[20%_center] lg:object-left "
             style={{
               maskImage: 'linear-gradient(to right, black 30%, rgba(0,0,0,0.85) 45%, rgba(0,0,0,0.3) 60%, transparent 75%)',
               WebkitMaskImage: 'linear-gradient(to right, black 30%, rgba(0,0,0,0.85) 45%, rgba(0,0,0,0.3) 60%, transparent 75%)',

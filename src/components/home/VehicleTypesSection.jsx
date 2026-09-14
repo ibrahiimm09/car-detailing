@@ -161,7 +161,7 @@ function VehicleCard({ v }) {
 
 export default function VehicleTypesSection() {
   return (
-    <section id="vehicle-types" className="relative bg-neutral-900/40 py-20 sm:py-24 lg:py-28 border-y border-neutral-800/80 overflow-hidden select-none">
+    <section id="vehicle-types" className="relative bg-neutral-900/40 py-20 sm:py-24 lg:py-28 border-y border-neutral-800/80 overflow-hidden ">
       
       {/* Subtle Background Glow Accents */}
       <div className="absolute top-1/4 right-1/4 w-[500px] h-[350px] bg-red-600/5 blur-[140px] rounded-full pointer-events-none" />

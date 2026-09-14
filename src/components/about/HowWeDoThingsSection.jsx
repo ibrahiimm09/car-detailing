@@ -100,7 +100,7 @@ export default function HowWeDoThingsSection() {
     <section 
       ref={sectionRef}
       id="how-we-do-things" 
-      className="relative bg-neutral-950 py-16 sm:py-20 lg:py-28 overflow-hidden select-none border-t border-neutral-900"
+      className="relative bg-neutral-950 py-16 sm:py-20 lg:py-28 overflow-hidden  border-t border-neutral-900"
     >
       
       {/* Subtle Background Glows */}

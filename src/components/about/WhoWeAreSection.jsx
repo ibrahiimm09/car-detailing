@@ -11,7 +11,7 @@ export default function WhoWeAreSection() {
   const imageSrc = typeof dosBrosImg === 'object' ? dosBrosImg.src : dosBrosImg;
 
   return (
-    <section id="who-we-are" className="relative bg-neutral-950 py-16 sm:py-20 lg:py-28 overflow-hidden select-none border-t border-neutral-900">
+    <section id="who-we-are" className="relative bg-neutral-950 py-16 sm:py-20 lg:py-28 overflow-hidden  border-t border-neutral-900">
       
       {/* Background Ambient Glow Accents */}
       <div className="absolute top-1/4 left-1/4 w-112.5 h-87.5 bg-red-600/5 blur-[140px] rounded-full pointer-events-none" />

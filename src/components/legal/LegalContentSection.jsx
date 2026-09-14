@@ -15,7 +15,7 @@ export default function LegalContentSection({
   sections = []
 }) {
   return (
-    <section className="relative bg-neutral-950 py-12 sm:py-16 lg:py-20 border-t border-neutral-900 overflow-hidden select-none">
+    <section className="relative bg-neutral-950 py-12 sm:py-16 lg:py-20 border-t border-neutral-900 overflow-hidden ">
       {/* Subtle Ambient Radial Glow */}
       <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-150 h-87.5 bg-red-600/5 blur-[140px] rounded-full pointer-events-none" />
 

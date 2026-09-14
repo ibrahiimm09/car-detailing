@@ -12,7 +12,7 @@ const timeData = [
 
 export default function ServiceTimeSection() {
   return (
-    <section id="service-time" className="relative bg-neutral-950 py-16 sm:py-20 lg:py-24 border-t border-neutral-900 overflow-hidden select-none">
+    <section id="service-time" className="relative bg-neutral-950 py-16 sm:py-20 lg:py-24 border-t border-neutral-900 overflow-hidden ">
       
       {/* Ambient background glow */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">

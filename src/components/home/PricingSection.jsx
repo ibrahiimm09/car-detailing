@@ -176,7 +176,7 @@ export default function PricingSection() {
   const [activeKey, setActiveKey] = useState('executive'); // Default: 'executive'
 
   return (
-    <section id="pricing" className="relative bg-neutral-900/50 py-20 sm:py-24 lg:py-28 border-y border-zinc-800/80 overflow-hidden select-none">
+    <section id="pricing" className="relative bg-neutral-900/50 py-20 sm:py-24 lg:py-28 border-y border-zinc-800/80 overflow-hidden ">
       
       {/* Zinc Ambient Glow Accents */}
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-zinc-900/40 via-zinc-950 to-zinc-950 pointer-events-none" />
@@ -208,7 +208,7 @@ export default function PricingSection() {
               <button
                 type="button"
                 onClick={() => setActiveKey('express')}
-                className={`whitespace-nowrap px-3.5 sm:px-5 py-2 sm:py-2.5 rounded-xl text-xs sm:text-sm font-bold font-['Outfit'] transition-colors duration-150 cursor-pointer border select-none focus:outline-none ${
+                className={`whitespace-nowrap px-3.5 sm:px-5 py-2 sm:py-2.5 rounded-xl text-xs sm:text-sm font-bold font-['Outfit'] transition-colors duration-150 cursor-pointer border  focus:outline-none ${
                   activeKey === 'express'
                     ? 'bg-gradient-to-r from-red-600 to-red-700 text-white shadow-md shadow-red-600/25 border-red-500/40'
                     : 'text-zinc-400 hover:text-white hover:bg-zinc-800/60 border-transparent'
@@ -220,7 +220,7 @@ export default function PricingSection() {
               <button
                 type="button"
                 onClick={() => setActiveKey('executive')}
-                className={`whitespace-nowrap px-3.5 sm:px-5 py-2 sm:py-2.5 rounded-xl text-xs sm:text-sm font-bold font-['Outfit'] transition-colors duration-150 cursor-pointer border select-none focus:outline-none ${
+                className={`whitespace-nowrap px-3.5 sm:px-5 py-2 sm:py-2.5 rounded-xl text-xs sm:text-sm font-bold font-['Outfit'] transition-colors duration-150 cursor-pointer border  focus:outline-none ${
                   activeKey === 'executive'
                     ? 'bg-gradient-to-r from-red-600 to-red-700 text-white shadow-md shadow-red-600/25 border-red-500/40'
                     : 'text-zinc-400 hover:text-white hover:bg-zinc-800/60 border-transparent'
@@ -232,7 +232,7 @@ export default function PricingSection() {
               <button
                 type="button"
                 onClick={() => setActiveKey('all')}
-                className={`whitespace-nowrap px-3.5 sm:px-5 py-2 sm:py-2.5 rounded-xl text-xs sm:text-sm font-bold font-['Outfit'] transition-colors duration-150 cursor-pointer border select-none focus:outline-none ${
+                className={`whitespace-nowrap px-3.5 sm:px-5 py-2 sm:py-2.5 rounded-xl text-xs sm:text-sm font-bold font-['Outfit'] transition-colors duration-150 cursor-pointer border  focus:outline-none ${
                   activeKey === 'all'
                     ? 'bg-gradient-to-r from-red-600 to-red-700 text-white shadow-md shadow-red-600/25 border-red-500/40'
                     : 'text-zinc-400 hover:text-white hover:bg-zinc-800/60 border-transparent'

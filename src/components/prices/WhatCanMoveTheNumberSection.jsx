@@ -26,7 +26,7 @@ const factorsData = [
 
 export default function WhatCanMoveTheNumberSection() {
   return (
-    <section id="price-factors" className="relative bg-neutral-950 py-16 sm:py-20 lg:py-24 border-t border-neutral-900 overflow-hidden select-none">
+    <section id="price-factors" className="relative bg-neutral-950 py-16 sm:py-20 lg:py-24 border-t border-neutral-900 overflow-hidden ">
       
       {/* Ambient background glows */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">

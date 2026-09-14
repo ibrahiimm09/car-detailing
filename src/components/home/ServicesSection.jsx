@@ -103,7 +103,7 @@ const addOns = [
 
 export default function ServicesSection() {
   return (
-    <section id="services" className="relative bg-neutral-950 py-20 sm:py-24 overflow-hidden select-none">
+    <section id="services" className="relative bg-neutral-950 py-20 sm:py-24 overflow-hidden ">
       
       {/* Background Subtle Gradient Accents */}
       <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[350px] bg-red-600/5 blur-[120px] rounded-full pointer-events-none" />

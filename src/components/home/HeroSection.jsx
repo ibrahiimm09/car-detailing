@@ -1,5 +1,6 @@
 import React from 'react';
-import heroBackground from '../../assets/Background_Herosection.webp';
+import heroBackground from '../../assets/herobackground.webp';
+import heroBackgroundMobile from '../../assets/mobileherosection.webp';
 import {
   StarFilled,
   CalendarOutlined,
@@ -44,22 +45,26 @@ const servicesList = [
 
 export default function HeroSection() {
   return (
-    <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden bg-neutral-950 py-12 sm:py-16 lg:py-20 select-none">
+    <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden bg-neutral-950 py-12 sm:py-16 lg:py-20 ">
 
       {/* Background Image with Contrast Overlays */}
       <div className="absolute inset-0 z-0 pointer-events-none overflow-hidden">
-        <img
-          src={heroBackground.src || heroBackground}
-          alt="Dos Bros Auto Detailing Morris MN"
-          fetchPriority="high"
-          loading="eager"
-          decoding="async"
-          width="1920"
-          height="1080"
-          className="w-full h-full object-cover object-center opacity-30 brightness-75 scale-105"
-        />
-
-
+        <picture className="w-full h-full block">
+          <source
+            media="(max-width: 768px)"
+            srcSet={heroBackgroundMobile.src || heroBackgroundMobile}
+          />
+          <img
+            src={heroBackground.src || heroBackground}
+            alt="Dos Bros Auto Detailing Morris MN"
+            fetchPriority="high"
+            loading="eager"
+            decoding="async"
+            width="1920"
+            height="1080"
+            className="w-full h-full object-cover object-center opacity-35 sm:opacity-30 brightness-90 sm:brightness-75 scale-100 sm:scale-105"
+          />
+        </picture>
       </div>
 
       {/* Main Content Container */}

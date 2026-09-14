@@ -37,7 +37,7 @@ export default function Footer() {
   ];
 
   return (
-    <footer className="relative bg-neutral-950 text-neutral-400 border-t border-neutral-900 overflow-hidden select-none">
+    <footer className="relative bg-neutral-950 text-neutral-400 border-t border-neutral-900 overflow-hidden ">
       {/* Subtle top ambient red gradient hairline */}
       <div className="absolute top-0 left-0 right-0 h-px bg-linear-to-r from-transparent via-red-500/30 to-transparent pointer-events-none" />
 

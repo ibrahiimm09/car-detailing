@@ -86,7 +86,7 @@ function CostCard({ row }) {
 
 export default function MorrisConditionsCostSection() {
   return (
-    <section id="conditions-cost" className="relative bg-neutral-950 py-18 sm:py-22 lg:py-26 border-b border-neutral-800/80 select-none overflow-hidden">
+    <section id="conditions-cost" className="relative bg-neutral-950 py-18 sm:py-22 lg:py-26 border-b border-neutral-800/80  overflow-hidden">
       
       {/* Background Ambient Glow Accents */}
       <div className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[350px] bg-red-600/5 blur-[140px] rounded-full pointer-events-none" />

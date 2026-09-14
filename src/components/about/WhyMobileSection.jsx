@@ -28,7 +28,7 @@ const comparisonData = [
 
 export default function WhyMobileSection() {
   return (
-    <section id="why-mobile" className="relative bg-neutral-950 py-16 sm:py-20 lg:py-28 overflow-hidden select-none border-t border-neutral-900">
+    <section id="why-mobile" className="relative bg-neutral-950 py-16 sm:py-20 lg:py-28 overflow-hidden  border-t border-b border-neutral-900">
       
       {/* Subtle Background Glows */}
       <div className="absolute top-1/4 left-1/4 w-112.5 h-87.5 bg-red-600/5 blur-[140px] rounded-full pointer-events-none" />

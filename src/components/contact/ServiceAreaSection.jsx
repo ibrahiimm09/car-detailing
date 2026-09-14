@@ -46,7 +46,7 @@ const serviceRegions = [
 
 export default function ServiceAreaSection() {
   return (
-    <section id="service-area" className="relative bg-neutral-900/40 py-20 sm:py-24 lg:py-28 border-b border-neutral-800/80 overflow-hidden select-none">
+    <section id="service-area" className="relative bg-neutral-900/40 py-20 sm:py-24 lg:py-28 border-b border-neutral-800/80 overflow-hidden ">
       
       {/* Background Ambient Glow Accents */}
       <div className="absolute top-1/4 right-1/4 w-137.5 h-87.5 bg-red-600/5 blur-[150px] rounded-full pointer-events-none" />

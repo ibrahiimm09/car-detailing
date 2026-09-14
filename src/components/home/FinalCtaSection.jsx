@@ -137,7 +137,7 @@ const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbw9Y8GQyClTl_
         }
       }}
     >
-      <section id="contact-booking" className="relative bg-neutral-950 py-10 sm:py-12 lg:py-14 border-t border-neutral-900 overflow-hidden select-none">
+      <section id="contact-booking" className="relative bg-neutral-950 py-10 sm:py-12 lg:py-14 border-t border-neutral-900 overflow-hidden ">
         
         {/* Ambient Subtle Glows */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">

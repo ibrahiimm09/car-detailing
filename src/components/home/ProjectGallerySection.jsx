@@ -23,20 +23,20 @@ import 'swiper/css/effect-coverflow';
 
 // Curated Project Gallery Items from local assets
 const projectImages = [
-  { id: 1, src: '/gallery/1.webp', title: 'High-Gloss Exterior Finish', category: 'Paint Correction', location: 'Morris, MN' },
-  { id: 2, src: '/gallery/2.webp', title: 'Deep Fabric Steam Extraction', category: 'Interior Detail', location: 'Stevens County' },
-  { id: 3, src: '/gallery/7.webp', title: 'Mirror Finish Clear Coat', category: 'Ceramic Coating', location: 'Morris, MN' },
-  { id: 4, src: '/gallery/10.webp', title: 'Leather Treatment & Conditioning', category: 'Interior Revival', location: 'Hancock, MN' },
-  { id: 5, src: '/gallery/15.webp', title: 'Prairie Dust & Road Film Removal', category: 'Exterior Detail', location: 'Chokio, MN' },
-  { id: 6, src: '/gallery/19.webp', title: 'Cockpit & Console Restoration', category: 'Deep Clean', location: 'Morris, MN' },
-  { id: 7, src: '/gallery/22.webp', title: 'Hydrophobic Glass & Paint Protection', category: 'Paint Protection', location: 'Alberta, MN' },
-  { id: 8, src: '/gallery/26.webp', title: 'Pet Hair & Odor Neutralization', category: 'Carpet Extraction', location: 'Donnelly, MN' },
-  { id: 9, src: '/gallery/34.webp', title: 'Heavy Farm Truck Mud Cleanup', category: 'Truck Specialist', location: 'Stevens County' },
-  { id: 10, src: '/gallery/37.webp', title: 'Door Jambs & Crevice Detailing', category: 'Interior Detail', location: 'Morris, MN' },
-  { id: 11, src: '/gallery/45.webp', title: 'Swirl Mark & Scratch Correction', category: '2-Step Polish', location: 'Cyrus, MN' },
-  { id: 12, src: '/gallery/58.webp', title: 'Showroom Gloss Restoration', category: 'Full Detail Package', location: 'Morris, MN' },
-  { id: 13, src: '/gallery/60.webp', title: 'Wheel Arch & Rim Decontamination', category: 'Wheels & Tires', location: 'Morris, MN' },
-  { id: 14, src: '/gallery/63.webp', title: 'SUV Multi-Row Family Reset', category: 'Interior & Exterior', location: 'Glenwood, MN' }
+  { id: 1, src: '/gallery/1.webp', category: 'Paint Correction', location: 'Morris, MN' },
+  { id: 2, src: '/gallery/2.webp', category: 'Interior Detail', location: 'Stevens County' },
+  { id: 3, src: '/gallery/7.webp', category: 'Ceramic Coating', location: 'Morris, MN' },
+  { id: 4, src: '/gallery/10.webp', category: 'Interior Revival', location: 'Hancock, MN' },
+  { id: 5, src: '/gallery/15.webp', category: 'Exterior Detail', location: 'Chokio, MN' },
+  { id: 6, src: '/gallery/19.webp', category: 'Deep Clean', location: 'Morris, MN' },
+  { id: 7, src: '/gallery/22.webp', category: 'Paint Protection', location: 'Alberta, MN' },
+  { id: 8, src: '/gallery/26.webp', category: 'Carpet Extraction', location: 'Donnelly, MN' },
+  { id: 9, src: '/gallery/34.webp', category: 'Truck Specialist', location: 'Stevens County' },
+  { id: 10, src: '/gallery/37.webp', category: 'Interior Detail', location: 'Morris, MN' },
+  { id: 11, src: '/gallery/45.webp', category: '2-Step Polish', location: 'Cyrus, MN' },
+  { id: 12, src: '/gallery/58.webp', category: 'Full Detail Package', location: 'Morris, MN' },
+  { id: 13, src: '/gallery/60.webp', category: 'Wheels & Tires', location: 'Morris, MN' },
+  { id: 14, src: '/gallery/63.webp', category: 'Interior & Exterior', location: 'Glenwood, MN' }
 ];
 
 export default function ProjectGallerySection() {
@@ -75,7 +75,7 @@ export default function ProjectGallerySection() {
   }, [activeViewerImage]);
 
   return (
-    <section id="gallery" className="relative bg-neutral-950 py-18 sm:py-22 lg:py-26 border-b border-neutral-800/80 overflow-hidden select-none">
+    <section id="gallery" className="relative bg-neutral-950 py-18 sm:py-22 lg:py-26 border-b border-neutral-800/80 overflow-hidden ">
 
       {/* Background Subtle Glows */}
       <div className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[350px] bg-red-600/5 blur-[160px] rounded-full pointer-events-none" />
@@ -310,7 +310,7 @@ export default function ProjectGallerySection() {
                 key={activeViewerImage.src}
                 src={activeViewerImage.src}
                 alt={activeViewerImage.title}
-                className="w-auto h-auto max-w-full max-h-full object-contain rounded-lg sm:rounded-xl shadow-2xl select-none"
+                className="w-auto h-auto max-w-full max-h-full object-contain rounded-lg sm:rounded-xl shadow-2xl "
               />
 
               {/* Next Image Navigation Arrow */}

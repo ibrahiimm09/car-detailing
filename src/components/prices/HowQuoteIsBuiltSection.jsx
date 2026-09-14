@@ -53,7 +53,7 @@ export default function HowQuoteIsBuiltSection() {
       {/* ========================================================================= */}
       {/* PART 1: THE FOUR BUILDING BLOCKS                                          */}
       {/* ========================================================================= */}
-      <section id="quote-built" className="relative bg-neutral-950 py-16 sm:py-20 lg:py-24 border-t border-neutral-900 overflow-hidden select-none">
+      <section id="quote-built" className="relative bg-neutral-950 py-16 sm:py-20 lg:py-24 border-t border-neutral-900 overflow-hidden ">
         
         {/* Ambient background glows */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">

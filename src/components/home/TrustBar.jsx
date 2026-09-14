@@ -49,7 +49,7 @@ export default function TrustBar() {
           {trustItems.map((item, index) => (
             <div
               key={index}
-              className="flex flex-col items-center text-center p-3 sm:p-2 select-none cursor-default"
+              className="flex flex-col items-center text-center p-3 sm:p-2  cursor-default"
             >
               {/* Icon Container */}
               <div className="w-12 h-12 rounded-xl bg-neutral-950/80 border border-neutral-800/80 flex items-center justify-center mb-3">

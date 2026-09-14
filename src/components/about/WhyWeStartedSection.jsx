@@ -26,7 +26,7 @@ export default function WhyWeStartedSection() {
   const mobileSwiperRef = useRef(null);
 
   return (
-    <section id="why-we-started" className="relative bg-neutral-950 py-16 sm:py-20 lg:py-28 overflow-hidden select-none border-t border-neutral-900">
+    <section id="why-we-started" className="relative bg-neutral-950 py-16 sm:py-20 lg:py-28 overflow-hidden border-t border-neutral-900">
       
       {/* Background Ambient Glow Accents */}
       <div className="absolute top-1/3 left-10 w-100 h-87.5 bg-red-600/5 blur-[140px] rounded-full pointer-events-none" />
@@ -72,7 +72,7 @@ export default function WhyWeStartedSection() {
                     <img
                       src={src}
                       alt={`Dos Bros Detailing Work ${i + 1}`}
-                      className="w-full h-full object-cover select-none"
+                      className="w-full h-full object-cover "
                       loading="lazy"
                     />
                     <div className="absolute inset-0 bg-linear-to-t from-neutral-950/40 via-transparent to-neutral-950/20 pointer-events-none" />
@@ -84,7 +84,7 @@ export default function WhyWeStartedSection() {
               <button
                 type="button"
                 onClick={() => leftSwiperRef.current?.slidePrev()}
-                className="why-left-prev absolute left-3 top-1/2 -translate-y-1/2 z-30 w-8 h-8 rounded-full bg-neutral-950/70 hover:bg-neutral-900 border border-neutral-700/80 hover:border-red-500/60 text-white flex items-center justify-center backdrop-blur-md transition-all duration-200 shadow-md cursor-pointer active:scale-95 select-none"
+                className="why-left-prev absolute left-3 top-1/2 -translate-y-1/2 z-30 w-8 h-8 rounded-full bg-neutral-950/70 hover:bg-neutral-900 border border-neutral-700/80 hover:border-red-500/60 text-white flex items-center justify-center backdrop-blur-md transition-all duration-200 shadow-md cursor-pointer active:scale-95 "
                 aria-label="Previous image"
               >
                 <ChevronLeft className="w-4 h-4 pointer-events-none" />
@@ -93,7 +93,7 @@ export default function WhyWeStartedSection() {
               <button
                 type="button"
                 onClick={() => leftSwiperRef.current?.slideNext()}
-                className="why-left-next absolute right-3 top-1/2 -translate-y-1/2 z-30 w-8 h-8 rounded-full bg-neutral-950/70 hover:bg-neutral-900 border border-neutral-700/80 hover:border-red-500/60 text-white flex items-center justify-center backdrop-blur-md transition-all duration-200 shadow-md cursor-pointer active:scale-95 select-none"
+                className="why-left-next absolute right-3 top-1/2 -translate-y-1/2 z-30 w-8 h-8 rounded-full bg-neutral-950/70 hover:bg-neutral-900 border border-neutral-700/80 hover:border-red-500/60 text-white flex items-center justify-center backdrop-blur-md transition-all duration-200 shadow-md cursor-pointer active:scale-95 "
                 aria-label="Next image"
               >
                 <ChevronRight className="w-4 h-4 pointer-events-none" />
@@ -172,7 +172,7 @@ export default function WhyWeStartedSection() {
                     <img
                       src={src}
                       alt={`Dos Bros Detailing Work ${i + 6}`}
-                      className="w-full h-full object-cover select-none"
+                      className="w-full h-full object-cover "
                       loading="lazy"
                     />
                     <div className="absolute inset-0 bg-linear-to-t from-neutral-950/40 via-transparent to-neutral-950/20 pointer-events-none" />
@@ -184,7 +184,7 @@ export default function WhyWeStartedSection() {
               <button
                 type="button"
                 onClick={() => rightSwiperRef.current?.slidePrev()}
-                className="why-right-prev absolute left-3 top-1/2 -translate-y-1/2 z-30 w-8 h-8 rounded-full bg-neutral-950/70 hover:bg-neutral-900 border border-neutral-700/80 hover:border-red-500/60 text-white flex items-center justify-center backdrop-blur-md transition-all duration-200 shadow-md cursor-pointer active:scale-95 select-none"
+                className="why-right-prev absolute left-3 top-1/2 -translate-y-1/2 z-30 w-8 h-8 rounded-full bg-neutral-950/70 hover:bg-neutral-900 border border-neutral-700/80 hover:border-red-500/60 text-white flex items-center justify-center backdrop-blur-md transition-all duration-200 shadow-md cursor-pointer active:scale-95 "
                 aria-label="Previous image"
               >
                 <ChevronLeft className="w-4 h-4 pointer-events-none" />
@@ -193,7 +193,7 @@ export default function WhyWeStartedSection() {
               <button
                 type="button"
                 onClick={() => rightSwiperRef.current?.slideNext()}
-                className="why-right-next absolute right-3 top-1/2 -translate-y-1/2 z-30 w-8 h-8 rounded-full bg-neutral-950/70 hover:bg-neutral-900 border border-neutral-700/80 hover:border-red-500/60 text-white flex items-center justify-center backdrop-blur-md transition-all duration-200 shadow-md cursor-pointer active:scale-95 select-none"
+                className="why-right-next absolute right-3 top-1/2 -translate-y-1/2 z-30 w-8 h-8 rounded-full bg-neutral-950/70 hover:bg-neutral-900 border border-neutral-700/80 hover:border-red-500/60 text-white flex items-center justify-center backdrop-blur-md transition-all duration-200 shadow-md cursor-pointer active:scale-95 "
                 aria-label="Next image"
               >
                 <ChevronRight className="w-4 h-4 pointer-events-none" />
@@ -280,7 +280,7 @@ export default function WhyWeStartedSection() {
                     <img
                       src={src}
                       alt={`Dos Bros Detailing ${i + 1}`}
-                      className="w-full h-full object-cover select-none"
+                      className="w-full h-full object-cover "
                       loading="lazy"
                     />
                     <div className="absolute inset-0 bg-linear-to-t from-neutral-950/40 via-transparent to-transparent pointer-events-none" />
@@ -292,7 +292,7 @@ export default function WhyWeStartedSection() {
               <button
                 type="button"
                 onClick={() => mobileSwiperRef.current?.slidePrev()}
-                className="why-mobile-prev absolute left-3 top-1/2 -translate-y-1/2 z-30 w-9 h-9 rounded-full bg-neutral-950/80 hover:bg-neutral-900 border border-neutral-700/80 hover:border-red-500 text-white flex items-center justify-center backdrop-blur-md cursor-pointer active:scale-90 transition-all shadow-lg select-none"
+                className="why-mobile-prev absolute left-3 top-1/2 -translate-y-1/2 z-30 w-9 h-9 rounded-full bg-neutral-950/80 hover:bg-neutral-900 border border-neutral-700/80 hover:border-red-500 text-white flex items-center justify-center backdrop-blur-md cursor-pointer active:scale-90 transition-all shadow-lg "
                 aria-label="Previous image"
               >
                 <ChevronLeft className="w-4 h-4 pointer-events-none" />
@@ -301,7 +301,7 @@ export default function WhyWeStartedSection() {
               <button
                 type="button"
                 onClick={() => mobileSwiperRef.current?.slideNext()}
-                className="why-mobile-next absolute right-3 top-1/2 -translate-y-1/2 z-30 w-9 h-9 rounded-full bg-neutral-950/80 hover:bg-neutral-900 border border-neutral-700/80 hover:border-red-500 text-white flex items-center justify-center backdrop-blur-md cursor-pointer active:scale-90 transition-all shadow-lg select-none"
+                className="why-mobile-next absolute right-3 top-1/2 -translate-y-1/2 z-30 w-9 h-9 rounded-full bg-neutral-950/80 hover:bg-neutral-900 border border-neutral-700/80 hover:border-red-500 text-white flex items-center justify-center backdrop-blur-md cursor-pointer active:scale-90 transition-all shadow-lg "
                 aria-label="Next image"
               >
                 <ChevronRight className="w-4 h-4 pointer-events-none" />

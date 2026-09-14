@@ -62,7 +62,7 @@ export default function PricingFaqSection() {
         },
       }}
     >
-      <section id="pricing-faq" className="relative bg-neutral-950 py-16 sm:py-20 lg:py-24 border-t border-neutral-900 overflow-hidden select-none">
+      <section id="pricing-faq" className="relative bg-neutral-950 py-16 sm:py-20 lg:py-24 border-t border-neutral-900 overflow-hidden ">
         
         {/* Ambient Background Glows */}
         <div className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[350px] bg-red-600/5 blur-[150px] rounded-full pointer-events-none" />
