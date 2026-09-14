@@ -185,7 +185,7 @@ export default function HowItWorksSection() {
               className="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-xl text-xs sm:text-sm font-semibold text-white bg-linear-to-r from-red-600 to-red-700 hover:from-red-500 hover:to-red-600 shadow-lg shadow-red-600/25 hover:-translate-y-0.5 transition-all duration-200 border border-red-500/40"
             >
               {/* <CalendarOutlined className="text-sm" /> */}
-              <span>Call us +1 (555) 839-2849</span>
+              <span>Call us +1 320-287-3573</span>
             </a>
           </div>
         </div>

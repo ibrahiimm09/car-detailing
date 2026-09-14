@@ -230,7 +230,7 @@ export default function Footer() {
           
           {/* Copyright */}
           <div className="flex flex-col sm:flex-row items-center gap-1 sm:gap-2 text-center md:text-left">
-            <p>© {currentYear} Dos Bros Auto Detailing. All rights reserved.</p>
+            <p>© {currentYear} Dos Bros Detailing. All rights reserved.</p>
             <span className="hidden sm:inline text-neutral-700">•</span>
             <span className="text-neutral-400">Morris, Minnesota</span>
           </div>
