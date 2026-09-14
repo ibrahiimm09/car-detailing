@@ -23,20 +23,20 @@ import 'swiper/css/effect-coverflow';
 
 // Curated Project Gallery Items from local assets
 const projectImages = [
-  { id: 1, src: '/gallery/1.webp', category: 'Paint Correction', location: 'Morris, MN' },
-  { id: 2, src: '/gallery/2.webp', category: 'Interior Detail', location: 'Stevens County' },
-  { id: 3, src: '/gallery/7.webp', category: 'Ceramic Coating', location: 'Morris, MN' },
-  { id: 4, src: '/gallery/10.webp', category: 'Interior Revival', location: 'Hancock, MN' },
-  { id: 5, src: '/gallery/15.webp', category: 'Exterior Detail', location: 'Chokio, MN' },
-  { id: 6, src: '/gallery/19.webp', category: 'Deep Clean', location: 'Morris, MN' },
-  { id: 7, src: '/gallery/22.webp', category: 'Paint Protection', location: 'Alberta, MN' },
-  { id: 8, src: '/gallery/26.webp', category: 'Carpet Extraction', location: 'Donnelly, MN' },
-  { id: 9, src: '/gallery/34.webp', category: 'Truck Specialist', location: 'Stevens County' },
-  { id: 10, src: '/gallery/37.webp', category: 'Interior Detail', location: 'Morris, MN' },
-  { id: 11, src: '/gallery/45.webp', category: '2-Step Polish', location: 'Cyrus, MN' },
-  { id: 12, src: '/gallery/58.webp', category: 'Full Detail Package', location: 'Morris, MN' },
-  { id: 13, src: '/gallery/60.webp', category: 'Wheels & Tires', location: 'Morris, MN' },
-  { id: 14, src: '/gallery/63.webp', category: 'Interior & Exterior', location: 'Glenwood, MN' }
+  { id: 1, src: '/gallery/1.webp',  location: 'Morris, MN' },
+  { id: 2, src: '/gallery/2.webp',  location: 'Stevens County' },
+  { id: 3, src: '/gallery/7.webp',  location: 'Morris, MN' },
+  { id: 4, src: '/gallery/10.webp',  location: 'Hancock, MN' },
+  { id: 5, src: '/gallery/15.webp',  location: 'Chokio, MN' },
+  { id: 6, src: '/gallery/19.webp',  location: 'Morris, MN' },
+  { id: 7, src: '/gallery/22.webp',  location: 'Alberta, MN' },
+  { id: 8, src: '/gallery/26.webp',  location: 'Donnelly, MN' },
+  { id: 9, src: '/gallery/34.webp',  location: 'Stevens County' },
+  { id: 10, src: '/gallery/37.webp',  location: 'Morris, MN' },
+  { id: 11, src: '/gallery/45.webp',  location: 'Cyrus, MN' },
+  { id: 12, src: '/gallery/58.webp',  location: 'Morris, MN' },
+  { id: 13, src: '/gallery/60.webp',  location: 'Morris, MN' },
+  { id: 14, src: '/gallery/63.webp',  location: 'Glenwood, MN' }
 ];
 
 export default function ProjectGallerySection() {
