@@ -113,7 +113,7 @@ export default function HowItWorksSection() {
         </div>
 
         {/* 1. Mobile & Extra Small Screens: Swiper.js Carousel */}
-        <div className="block md:hidden mb-14 sm:mb-16">
+        <div className="block md:hidden mb-14 sm:mb-16" aria-hidden="true" role="presentation">
           <Swiper
             modules={[Autoplay, Pagination]}
             loop={true}
