@@ -1,5 +1,5 @@
 import React from 'react';
-import aboutHeroImg from '../../assets/about/abouthero.webp';
+import aboutHeroImg from '../../assets/about/dos-bros-auto-detailing-team-morris-mn.webp';
 import { ArrowRight, ArrowDown } from 'lucide-react';
 import { PhoneOutlined } from '@ant-design/icons';
 
@@ -22,7 +22,7 @@ export default function AboutHeroSection() {
         <div className="absolute inset-0 z-0 overflow-hidden pointer-events-none">
           <img
             src={imageSrc}
-            alt="Dos Bros Detailing Morris Minnesota"
+            alt="About Dos Bros Auto Detailing - professional car care team in Morris, Minnesota"
             className="w-full h-full object-cover object-[20%_top] sm:object-[20%_center] lg:object-left "
             style={{
               maskImage: 'linear-gradient(to right, black 30%, rgba(0,0,0,0.85) 45%, rgba(0,0,0,0.3) 60%, transparent 75%)',

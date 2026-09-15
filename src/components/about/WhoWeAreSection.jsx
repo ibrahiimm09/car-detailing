@@ -1,5 +1,5 @@
 import React from 'react';
-import dosBrosImg from '../../assets/DosBros.png';
+import dosBrosImg from '../../assets/dos-bros-detailing-founders-morris-mn.png';
 import { 
   Users, 
   MapPin, 
@@ -35,7 +35,7 @@ export default function WhoWeAreSection() {
                 <div className="w-full h-full flex-1 overflow-hidden bg-neutral-950 relative">
                   <img
                     src={imageSrc}
-                    alt="Reyes and Mariano - Founders of Dos Bros Auto Detailing"
+                    alt="Reyes and Mariano, professional auto detailers and founders of Dos Bros Detailing in Morris, MN"
                     className="w-full h-full object-cover object-top transition-transform duration-700 ease-out group-hover:scale-105"
                     loading="lazy"
                   />

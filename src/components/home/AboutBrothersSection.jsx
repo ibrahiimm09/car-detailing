@@ -1,5 +1,5 @@
 import React from 'react';
-import dosBrosImg from '../../assets/DosBros.webp';
+import dosBrosImg from '../../assets/dos-bros-detailing-founders-morris-mn.webp';
 import { CalendarOutlined } from '@ant-design/icons';
 
 export default function AboutBrothersSection() {
@@ -79,7 +79,7 @@ export default function AboutBrothersSection() {
                 <div className="w-full h-full flex-1 overflow-hidden bg-neutral-950 relative">
                   <img
                     src={imageSrc}
-                    alt="Reyes and Mariano - Founders of Dos Bros Auto Detailing"
+                    alt="Reyes and Mariano, founders of Dos Bros Auto Detailing in Morris, Minnesota"
                     width="800"
                     height="1067"
                     decoding="async"

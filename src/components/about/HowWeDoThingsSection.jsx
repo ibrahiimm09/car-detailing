@@ -5,7 +5,7 @@ import {
   SlidersHorizontal, 
   ClipboardCheck 
 } from 'lucide-react';
-import truckImg from '../../assets/truck-detail.jpg';
+import truckImg from '../../assets/dos-bros-mobile-detailing-truck-morris-mn.jpg';
 
 const stepsData = [
   {
@@ -294,7 +294,7 @@ export default function HowWeDoThingsSection() {
         >
           <img
             src={truckImgSrc}
-            alt="Dos Bros Mobile Detailing Truck in Morris, MN"
+            alt="Dos Bros mobile car detailing truck serving Morris, MN and surrounding Stevens County areas"
             className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700 ease-out"
             loading="lazy"
           />

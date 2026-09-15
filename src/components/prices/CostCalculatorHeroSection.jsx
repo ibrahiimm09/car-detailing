@@ -1,5 +1,5 @@
 import React from 'react';
-import calculatorHeroImg from '../../assets/prices/costcalculatorbg.webp';
+import calculatorHeroImg from '../../assets/prices/car-detailing-cost-calculator-morris-mn.webp';
 import { ArrowRight, ArrowDown } from 'lucide-react';
 import { PhoneOutlined } from '@ant-design/icons';
 
@@ -21,7 +21,7 @@ export default function CostCalculatorHeroSection() {
         <div className="absolute inset-0 z-0 overflow-hidden pointer-events-none">
           <img
             src={imageSrc}
-            alt="Car Detailing Cost Calculator for Morris, MN - Dos Bros Detailing"
+            alt="Car detailing cost calculator and pricing guide for Morris, MN by Dos Bros Auto Detailing"
             className="w-full h-full object-cover object-[20%_top] sm:object-[20%_center] lg:object-left "
             style={{
               maskImage: 'linear-gradient(to right, black 30%, rgba(0,0,0,0.85) 45%, rgba(0,0,0,0.3) 60%, transparent 75%)',

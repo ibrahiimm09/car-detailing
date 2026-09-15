@@ -127,7 +127,7 @@ export default function Navbar() {
               <div className="relative flex items-center justify-center">
                 <img
                   src="/logo.png"
-                  alt="Dos Bros Auto Detailing"
+                  alt="Dos Bros Auto Detailing - Morris, MN Car Detailing Service"
                   width="180"
                   height="42"
                   className="h-10.5 sm:h-12 md:h-13 w-auto max-w-60 sm:max-w-72.5 object-contain block transition-transform duration-200"
@@ -225,7 +225,7 @@ export default function Navbar() {
               >
                 <img
                   src="/logo.png"
-                  alt="Dos Bros Auto Detailing"
+                  alt="Dos Bros Auto Detailing - Morris, MN Car Detailing Service"
                   width="163"
                   height="38"
                   style={{

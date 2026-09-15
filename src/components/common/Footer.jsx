@@ -56,7 +56,7 @@ export default function Footer() {
               <div className="inline-flex items-center">
                 <img
                   src="/logo.png"
-                  alt="Dos Bros Auto Detailing"
+                  alt="Dos Bros Auto Detailing logo - professional car detailing in Morris, Minnesota"
                   width="180"
                   height="42"
                   className="h-9 xs:h-10 sm:h-11 w-auto max-w-55 xs:max-w-[260px] object-contain"

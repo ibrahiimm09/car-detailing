@@ -8,16 +8,29 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 
 // Import gallery images
-import g1 from '../../assets/aboutgallery/1.webp';
-import g2 from '../../assets/aboutgallery/2.webp';
-import g3 from '../../assets/aboutgallery/3.webp';
-import g4 from '../../assets/aboutgallery/4.webp';
-import g5 from '../../assets/aboutgallery/5.webp';
-import g6 from '../../assets/aboutgallery/6.webp';
+import g1 from '../../assets/aboutgallery/carseatsleatherclean.webp';
+import g2 from '../../assets/aboutgallery/detailcleansteering.webp';
+import g3 from '../../assets/aboutgallery/landcruiserexteriordetailing.webp';
+import g4 from '../../assets/aboutgallery/toyotaexteriordetailing.webp';
+import g5 from '../../assets/aboutgallery/toyotasteeringcleanwash.webp';
+import g6 from '../../assets/aboutgallery/truck-interior-detailing.webp';
 
 
-const leftImages = [g1, g2, g3].map((img) => (typeof img === 'object' ? img.src : img));
-const rightImages = [g4, g5, g6].map((img) => (typeof img === 'object' ? img.src : img));
+const leftImageSrcs = [g1, g2, g3].map((img) => (typeof img === 'object' ? img.src : img));
+const rightImageSrcs = [g4, g5, g6].map((img) => (typeof img === 'object' ? img.src : img));
+
+const leftImages = leftImageSrcs.map((src, i) => ({ src, alt: [
+  'Leather car seat deep cleaning and conditioning by Dos Bros Detailing in Morris, MN',
+  'Steering wheel and dashboard detail cleaning service in Stevens County',
+  'Land Cruiser exterior detailing and paint correction near Morris, Minnesota'
+][i] }));
+
+const rightImages = rightImageSrcs.map((src, i) => ({ src, alt: [
+  'Toyota exterior detailing with hand wash and polish in Morris, MN',
+  'Steering wheel cleaning and sanitization by Dos Bros Auto Detailing',
+  'Truck interior detailing with carpet and seat extraction in Stevens County'
+][i] }));
+
 const allImages = [...leftImages, ...rightImages];
 
 export default function WhyWeStartedSection() {
@@ -67,11 +80,11 @@ export default function WhyWeStartedSection() {
                 autoplay={{ delay: 3800, disableOnInteraction: false }}
                 className="w-full h-full"
               >
-                {leftImages.map((src, i) => (
+                {leftImages.map((item, i) => (
                   <SwiperSlide key={i} className="w-full h-full relative">
                     <img
-                      src={src}
-                      alt={`Dos Bros Detailing Work ${i + 1}`}
+                      src={item.src}
+                      alt={item.alt}
                       className="w-full h-full object-cover "
                       loading="lazy"
                     />
@@ -167,11 +180,11 @@ export default function WhyWeStartedSection() {
                 autoplay={{ delay: 4200, disableOnInteraction: false }}
                 className="w-full h-full"
               >
-                {rightImages.map((src, i) => (
+                {rightImages.map((item, i) => (
                   <SwiperSlide key={i} className="w-full h-full relative">
                     <img
-                      src={src}
-                      alt={`Dos Bros Detailing Work ${i + 6}`}
+                      src={item.src}
+                      alt={item.alt}
                       className="w-full h-full object-cover "
                       loading="lazy"
                     />
@@ -275,11 +288,11 @@ export default function WhyWeStartedSection() {
                 autoplay={{ delay: 3500, disableOnInteraction: false }}
                 className="w-full h-full"
               >
-                {allImages.map((src, i) => (
+                {allImages.map((item, i) => (
                   <SwiperSlide key={i} className="w-full h-full relative">
                     <img
-                      src={src}
-                      alt={`Dos Bros Detailing ${i + 1}`}
+                      src={item.src}
+                      alt={item.alt}
                       className="w-full h-full object-cover "
                       loading="lazy"
                     />

@@ -1,6 +1,6 @@
 import React from 'react';
-import heroBackground from '../../assets/herobackground.webp';
-import heroBackgroundMobile from '../../assets/mobileherosection.webp';
+import heroBackground from '../../assets/morris-mn-car-detailing-hero-background.webp';
+import heroBackgroundMobile from '../../assets/morris-mn-auto-detailing-mobile-hero.webp';
 import {
   StarFilled,
   CalendarOutlined,
@@ -51,7 +51,7 @@ export default function HeroSection() {
       <div className="absolute inset-x-0 top-0 h-[52dvh] sm:h-[62dvh] z-0 pointer-events-none overflow-hidden block md:hidden">
         <img
           src={heroBackgroundMobile.src || heroBackgroundMobile}
-          alt="Dos Bros Auto Detailing Morris MN"
+          alt="Professional car detailing service in Morris, MN by Dos Bros Auto Detailing"
           fetchPriority="high"
           loading="eager"
           decoding="async"
@@ -63,7 +63,7 @@ export default function HeroSection() {
       <div className="absolute inset-0 z-0 pointer-events-none overflow-hidden hidden md:block">
         <img
           src={heroBackground.src || heroBackground}
-          alt="Dos Bros Auto Detailing Morris MN"
+          alt="Premium auto detailing and paint correction services near Stevens County, Minnesota"
           fetchPriority="high"
           loading="eager"
           decoding="async"

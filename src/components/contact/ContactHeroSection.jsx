@@ -1,5 +1,5 @@
 import React from 'react';
-import contactHeroImg from '../../assets/contact/contacthero.webp';
+import contactHeroImg from '../../assets/contact/contact-dos-bros-car-detailing-morris-mn.webp';
 import { ArrowRight, ArrowDown, ArrowLeft } from 'lucide-react';
 import { PhoneOutlined } from '@ant-design/icons';
 
@@ -21,7 +21,7 @@ export default function ContactHeroSection() {
         <div className="absolute inset-0 z-0 overflow-hidden pointer-events-none">
           <img
             src={imageSrc}
-            alt="Contact Dos Bros Detailing - Morris, MN"
+            alt="Contact Dos Bros Auto Detailing for car detailing quotes in Morris, MN and Stevens County"
             className="w-full h-full object-cover object-[20%_top] sm:object-[20%_center] lg:object-left "
             style={{
               maskImage: 'linear-gradient(to right, black 30%, rgba(0,0,0,0.85) 45%, rgba(0,0,0,0.3) 60%, transparent 75%)',
