@@ -134,7 +134,7 @@ export default function ServiceAreaSection() {
           </div>
 
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white font-['Outfit'] tracking-tight leading-[1.15]">
-            Towns we serve in <br className="hidden sm:inline" />
+            <a href="/service-areas" className="">Towns we serve in</a> <br className="hidden sm:inline" />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-amber-500">
               West-Central Minnesota
             </span>
