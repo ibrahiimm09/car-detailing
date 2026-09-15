@@ -23,7 +23,7 @@ export default function AboutBrothersSection() {
             <div className="flex justify-center lg:justify-start">
               <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-neutral-900 border border-neutral-800 text-xs font-semibold text-neutral-300">
                 <span className="w-2 h-2 rounded-full bg-red-500 animate-pulse" />
-                <span>ABOUT US</span>
+                <span><a href="/about" className="">ABOUT US</a></span>
               </div>
             </div>
 
