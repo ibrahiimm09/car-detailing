@@ -23,37 +23,37 @@ import 'swiper/css/effect-coverflow';
 
 // Curated Project Gallery Items from local assets
 const projectImages = [
-  { id: 1, src: '/gallery/morris-mn-paint-correction-detailing.webp',  location: 'Morris, MN' },
-  { id: 2, src: '/gallery/stevens-county-interior-car-detailing.webp',  location: 'Stevens County' },
-  { id: 3, src: '/gallery/morris-mn-ceramic-coating-protection.webp',  location: 'Morris, MN' },
-  { id: 4, src: '/gallery/hancock-mn-interior-revival-detailing.webp',  location: 'Hancock, MN' },
-  { id: 5, src: '/gallery/chokio-mn-exterior-hand-wash-detailing.webp',  location: 'Chokio, MN' },
-  { id: 6, src: '/gallery/morris-mn-deep-clean-auto-detailing.webp',  location: 'Morris, MN' },
-  { id: 7, src: '/gallery/alberta-mn-paint-protection-detailing.webp',  location: 'Alberta, MN' },
-  { id: 8, src: '/gallery/donnelly-mn-carpet-seat-extraction.webp',  location: 'Donnelly, MN' },
-  { id: 9, src: '/gallery/stevens-county-truck-suv-detailing.webp',  location: 'Stevens County' },
-  { id: 10, src: '/gallery/morris-mn-car-interior-detail-cleaning.webp',  location: 'Morris, MN' },
-  { id: 11, src: '/gallery/cyrus-mn-two-step-polish-scratch-removal.webp',  location: 'Cyrus, MN' },
-  { id: 12, src: '/gallery/morris-mn-full-car-detail-package.webp',  location: 'Morris, MN' },
-  { id: 13, src: '/gallery/morris-mn-wheels-and-tires-detailing.webp',  location: 'Morris, MN' },
-  { id: 14, src: '/gallery/glenwood-mn-interior-exterior-car-detailing.webp',  location: 'Glenwood, MN' },
-  { id: 15, src: '/gallery/morris-mn-auto-paint-enhancement.webp',  location: 'Morris, MN' },
-  { id: 16, src: '/gallery/stevens-county-headlight-restoration-detailing.webp',  location: 'Stevens County' },
-  { id: 17, src: '/gallery/morris-mn-leather-seat-conditioning.webp',  location: 'Morris, MN' },
-  { id: 18, src: '/gallery/hancock-mn-vehicle-deep-cleaning.webp',  location: 'Hancock, MN' },
-  { id: 19, src: '/gallery/morris-mn-engine-bay-detailing.webp',  location: 'Morris, MN' },
-  { id: 20, src: '/gallery/chokio-mn-car-interior-vacuum-steam.webp',  location: 'Chokio, MN' },
-  { id: 21, src: '/gallery/morris-mn-ceramic-gloss-shield.webp',  location: 'Morris, MN' },
-  { id: 22, src: '/gallery/stevens-county-exterior-foam-wash.webp',  location: 'Stevens County' },
-  { id: 23, src: '/gallery/alberta-mn-dashboard-console-restoration.webp',  location: 'Alberta, MN' },
-  { id: 24, src: '/gallery/morris-mn-pet-hair-removal-service.webp',  location: 'Morris, MN' },
-  { id: 25, src: '/gallery/donnelly-mn-luxury-car-detailing.webp',  location: 'Donnelly, MN' },
-  { id: 26, src: '/gallery/morris-mn-suv-trunk-cargo-cleaning.webp',  location: 'Morris, MN' },
-  { id: 27, src: '/gallery/cyrus-mn-exterior-polish-shine.webp',  location: 'Cyrus, MN' },
-  { id: 28, src: '/gallery/morris-mn-complete-auto-spa-detail.webp',  location: 'Morris, MN' },
-  { id: 29, src: '/gallery/stevens-county-ceramic-spray-protection.webp',  location: 'Stevens County' },
-  { id: 30, src: '/gallery/morris-mn-rim-brake-dust-removal.webp',  location: 'Morris, MN' },
-  { id: 31, src: '/gallery/glenwood-mn-car-wax-paint-sealant.webp',  location: 'Glenwood, MN' }
+  { id: 1, src: '/gallery/morris-mn-paint-correction-detailing.webp', alt: 'Professional paint correction detailing on a sedan in Morris, MN', location: 'Morris, MN' },
+  { id: 2, src: '/gallery/stevens-county-interior-car-detailing.webp', alt: 'Deep interior car detailing with steam cleaning in Stevens County', location: 'Stevens County' },
+  { id: 3, src: '/gallery/morris-mn-ceramic-coating-protection.webp', alt: 'Ceramic coating application for long-lasting paint protection in Morris, MN', location: 'Morris, MN' },
+  { id: 4, src: '/gallery/hancock-mn-interior-revival-detailing.webp', alt: 'Full interior revival and leather restoration in Hancock, MN', location: 'Hancock, MN' },
+  { id: 5, src: '/gallery/chokio-mn-exterior-hand-wash-detailing.webp', alt: 'Hand wash and exterior detailing service in Chokio, MN', location: 'Chokio, MN' },
+  { id: 6, src: '/gallery/morris-mn-deep-clean-auto-detailing.webp', alt: 'Deep clean auto detailing removing dirt and grime in Morris, MN', location: 'Morris, MN' },
+  { id: 7, src: '/gallery/alberta-mn-paint-protection-detailing.webp', alt: 'Paint protection film and sealant application in Alberta, MN', location: 'Alberta, MN' },
+  { id: 8, src: '/gallery/donnelly-mn-carpet-seat-extraction.webp', alt: 'Hot water carpet and seat extraction cleaning in Donnelly, MN', location: 'Donnelly, MN' },
+  { id: 9, src: '/gallery/stevens-county-truck-suv-detailing.webp', alt: 'Truck and SUV full detail service in Stevens County, Minnesota', location: 'Stevens County' },
+  { id: 10, src: '/gallery/morris-mn-car-interior-detail-cleaning.webp', alt: 'Car interior detail cleaning including dashboard and console in Morris', location: 'Morris, MN' },
+  { id: 11, src: '/gallery/cyrus-mn-two-step-polish-scratch-removal.webp', alt: 'Two-step paint polish and scratch removal service in Cyrus, MN', location: 'Cyrus, MN' },
+  { id: 12, src: '/gallery/morris-mn-full-car-detail-package.webp', alt: 'Complete full car detail package with interior and exterior in Morris, MN', location: 'Morris, MN' },
+  { id: 13, src: '/gallery/morris-mn-wheels-and-tires-detailing.webp', alt: 'Wheels and tires cleaning with tire dressing applied in Morris', location: 'Morris, MN' },
+  { id: 14, src: '/gallery/glenwood-mn-interior-exterior-car-detailing.webp', alt: 'Combined interior and exterior car detailing in Glenwood, MN', location: 'Glenwood, MN' },
+  { id: 15, src: '/gallery/morris-mn-auto-paint-enhancement.webp', alt: 'Auto paint enhancement and gloss boost on a vehicle in Morris, MN', location: 'Morris, MN' },
+  { id: 16, src: '/gallery/stevens-county-headlight-restoration-detailing.webp', alt: 'Headlight restoration and lens clarity service in Stevens County', location: 'Stevens County' },
+  { id: 17, src: '/gallery/morris-mn-leather-seat-conditioning.webp', alt: 'Leather seat conditioning and UV protection treatment in Morris', location: 'Morris, MN' },
+  { id: 18, src: '/gallery/hancock-mn-vehicle-deep-cleaning.webp', alt: 'Vehicle deep cleaning with stain removal in Hancock, MN', location: 'Hancock, MN' },
+  { id: 19, src: '/gallery/morris-mn-engine-bay-detailing.webp', alt: 'Engine bay detailing and degreasing service in Morris, MN', location: 'Morris, MN' },
+  { id: 20, src: '/gallery/chokio-mn-car-interior-vacuum-steam.webp', alt: 'Interior vacuum and steam cleaning for a car in Chokio, MN', location: 'Chokio, MN' },
+  { id: 21, src: '/gallery/morris-mn-ceramic-gloss-shield.webp', alt: 'Ceramic gloss shield coating for maximum paint shine in Morris', location: 'Morris, MN' },
+  { id: 22, src: '/gallery/stevens-county-exterior-foam-wash.webp', alt: 'Exterior foam wash and rinse detailing in Stevens County, MN', location: 'Stevens County' },
+  { id: 23, src: '/gallery/alberta-mn-dashboard-console-restoration.webp', alt: 'Dashboard and center console restoration detailing in Alberta, MN', location: 'Alberta, MN' },
+  { id: 24, src: '/gallery/morris-mn-pet-hair-removal-service.webp', alt: 'Pet hair removal and odor elimination service in Morris, MN', location: 'Morris, MN' },
+  { id: 25, src: '/gallery/donnelly-mn-luxury-car-detailing.webp', alt: 'Luxury car detailing with premium products in Donnelly, MN', location: 'Donnelly, MN' },
+  { id: 26, src: '/gallery/morris-mn-suv-trunk-cargo-cleaning.webp', alt: 'SUV trunk and cargo area deep cleaning in Morris, MN', location: 'Morris, MN' },
+  { id: 27, src: '/gallery/cyrus-mn-exterior-polish-shine.webp', alt: 'Exterior polish and high-gloss shine finish in Cyrus, MN', location: 'Cyrus, MN' },
+  { id: 28, src: '/gallery/morris-mn-complete-auto-spa-detail.webp', alt: 'Complete auto spa detail with clay bar treatment in Morris, MN', location: 'Morris, MN' },
+  { id: 29, src: '/gallery/stevens-county-ceramic-spray-protection.webp', alt: 'Ceramic spray protection for weather resistance in Stevens County', location: 'Stevens County' },
+  { id: 30, src: '/gallery/morris-mn-rim-brake-dust-removal.webp', alt: 'Rim cleaning and brake dust removal detailing in Morris, MN', location: 'Morris, MN' },
+  { id: 31, src: '/gallery/glenwood-mn-car-wax-paint-sealant.webp', alt: 'Car wax and paint sealant application in Glenwood, MN', location: 'Glenwood, MN' }
 ];
 
 export default function ProjectGallerySection() {
@@ -200,7 +200,7 @@ export default function ProjectGallerySection() {
                   {/* Vehicle Image */}
                   <img
                     src={item.src}
-                    alt={item.title}
+                    alt={item.alt}
                     loading="lazy"
                     className="w-full h-full object-cover transition-transform duration-500 ease-out group-hover:scale-105"
                   />
@@ -326,7 +326,7 @@ export default function ProjectGallerySection() {
               <img
                 key={activeViewerImage.src}
                 src={activeViewerImage.src}
-                alt={activeViewerImage.title}
+                alt={activeViewerImage.alt}
                 className="w-auto h-auto max-w-full max-h-full object-contain rounded-lg sm:rounded-xl shadow-2xl "
               />
 
