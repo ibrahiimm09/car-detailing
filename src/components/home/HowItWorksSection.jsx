@@ -28,7 +28,7 @@ const steps = [
     title: "1. Send us a few details",
     subtitle: "Quick & Simple Inquiry",
     icon: <MessageSquare className="w-6 h-6 text-[#fb2c36]" strokeWidth={2.2} />,
-    description: "Tell us your vehicle, your town, and roughly what you are after. A photo helps if the inside is rough. Reyes usually gets back to you the same day with a price."
+    description: <span><a href="/contact" className="text-red-400 hover:text-red-300 underline underline-offset-2 transition-colors">Tell us your vehicle</a>, your town, and roughly what you are after. A photo helps if the inside is rough. Reyes usually gets back to you the same day with a price.</span>
   },
   {
     step: "02",
