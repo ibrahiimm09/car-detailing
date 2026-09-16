@@ -236,9 +236,9 @@ export default function ServicesSection() {
         {/* Add-ons & Extra Services Sub-Section */}
         <div className="rounded-2xl bg-neutral-900/60 border border-neutral-800/80 p-6 sm:p-8 mb-16 backdrop-blur-md">
           <div className="text-center max-w-xl mx-auto mb-8">
-            <h4 className="text-base sm:text-lg font-bold text-white font-['Outfit']">
+            <h3 className="text-base sm:text-lg font-bold text-white font-['Outfit']">
               Popular Add-Ons & Specialized Upgrades
-            </h4>
+            </h3>
             <p className="text-xs sm:text-sm text-neutral-400 mt-1">
               Customize your detail package with targeted vehicle treatments.
             </p>

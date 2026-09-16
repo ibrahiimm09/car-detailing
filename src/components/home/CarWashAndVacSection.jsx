@@ -177,9 +177,9 @@ export default function CarWashAndVacSection() {
             <div>
               {/* Question Header with Theme Red Background */}
               <div className="bg-linear-to-r from-red-600 to-red-700 px-6 py-4 sm:px-7 sm:py-5 border-b border-red-500/30 min-h-18 sm:min-h-20 flex items-center">
-                <h4 className="text-base sm:text-lg font-bold text-white font-['Outfit'] leading-snug">
+                <h3 className="text-base sm:text-lg font-bold text-white font-['Outfit'] leading-snug">
                   Is it worth paying for something you could technically do yourself?
-                </h4>
+                </h3>
               </div>
 
               {/* Answer Content */}

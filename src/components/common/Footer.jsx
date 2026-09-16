@@ -29,7 +29,7 @@ export default function Footer() {
 
   const quickLinks = [
     { name: 'Home', href: '/' },
-    { name: 'About Our Studio', href: '/about' },
+    { name: 'Services', href: '#services' },
     { name: 'Detailing Services', href: '/#services' },
     { name: 'Pricing & Packages', href: '/cost-calculator' },
     { name: 'Service Areas', href: '/service-areas' },

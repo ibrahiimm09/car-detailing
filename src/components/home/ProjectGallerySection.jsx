@@ -220,9 +220,9 @@ export default function ProjectGallerySection() {
 
                   {/* Bottom Text & Location */}
                   <div className="absolute bottom-0 left-0 right-0 p-3 sm:p-3.5 z-10 space-y-0.5">
-                    <h4 className="text-xs sm:text-sm font-bold text-white font-['Outfit'] leading-tight line-clamp-1 group-hover:text-red-400 transition-colors">
+                    {/* <h4 className="text-xs sm:text-sm font-bold text-white font-['Outfit'] leading-tight line-clamp-1 group-hover:text-red-400 transition-colors">
                       {item.category}
-                    </h4>
+                    </h4> */}
                     <div className="flex items-center justify-between text-[10px] text-neutral-400">
                       <span>{item.location}</span>
                       <span className="text-[9px] font-medium text-red-400 flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity">
