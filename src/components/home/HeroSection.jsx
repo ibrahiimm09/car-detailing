@@ -155,7 +155,7 @@ export default function HeroSection() {
                 {servicesList.map((service, index) => (
                   <div
                     key={index}
-                    className="flex items-center gap-3 p-2.5 sm:p-3 rounded-xl bg-neutral-900/70 border border-neutral-800/80 text-left cursor-default select-none"
+                    className="flex items-center gap-3 p-2.5 sm:p-3 rounded-xl bg-neutral-900/70 border border-neutral-800/80 text-left cursor-default "
                   >
                     <div className="w-8 h-8 rounded-lg bg-neutral-950 flex items-center justify-center shrink-0 border border-neutral-800">
                       {service.icon}
