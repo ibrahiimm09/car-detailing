@@ -1,6 +1,7 @@
 import React from 'react';
 import dosBrosImg from '../../assets/dos-bros-detailing-founders-morris-mn.webp';
 import { CalendarOutlined } from '@ant-design/icons';
+import { ArrowRight } from 'lucide-react';
 
 export default function AboutBrothersSection() {
   const imageSrc = typeof dosBrosImg === 'object' ? dosBrosImg.src : dosBrosImg;
@@ -53,7 +54,7 @@ export default function AboutBrothersSection() {
             </div>
 
             {/* CTA Button: Book Reyes */}
-            <div className="pt-2 flex justify-center lg:justify-start">
+            <div className="pt-2 flex gap-2 justify-center lg:justify-start">
               <a
                 href="#contact-booking"
                 className="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-xl text-xs sm:text-sm font-semibold text-white bg-linear-to-r from-red-600 to-red-700 hover:from-red-500 hover:to-red-600 shadow-lg shadow-red-600/25 hover:-translate-y-0.5 transition-all duration-200 border border-red-500/40"
@@ -61,6 +62,13 @@ export default function AboutBrothersSection() {
                 <CalendarOutlined className="text-sm" />
                 <span>Book Reyes</span>
               </a>
+               <a
+              href="/about"
+              className="group inline-flex items-center gap-2 px-5 sm:px-6 py-2.5 rounded-full text-xs sm:text-sm font-light text-white bg-neutral-900 hover:bg-neutral-800 border border-neutral-700/80 hover:border-red-500/50 shadow-sm transition-all duration-300 hover:-translate-y-0.5 max-w-full text-center"
+            >
+              <span>Learn More</span>
+              <ArrowRight className="w-3.5 h-3.5 text-red-400 group-hover:translate-x-0.5 transition-transform" />
+            </a>
             </div>
 
           </div>

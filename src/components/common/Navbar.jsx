@@ -14,7 +14,7 @@ const navLinks = [
   { name: 'Home', href: '/' },
   { name: 'About', href: '/about' },
   // { name: 'Services', href: '/services' },
-  { name: 'Cost Calculator', href: '/prices' },
+  { name: 'Cost Calculator', href: '/cost-calculator' },
   { name: 'Service Areas', href: '/service-areas' },
   { name: 'Contact', href: '/contact' },
 ];

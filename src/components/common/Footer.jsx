@@ -31,7 +31,7 @@ export default function Footer() {
     { name: 'Home', href: '/' },
     { name: 'About Our Studio', href: '/about' },
     { name: 'Detailing Services', href: '/#services' },
-    { name: 'Pricing & Packages', href: '/prices' },
+    { name: 'Pricing & Packages', href: '/cost-calculator' },
     { name: 'Service Areas', href: '/service-areas' },
     { name: 'Contact & Booking', href: '/contact' },
   ];
