@@ -58,7 +58,7 @@ export default function WhoWeAreSection() {
                     </p>
                   </div>
                   <div className="px-2.5 py-1 rounded-lg bg-red-500/10 border border-red-500/20 text-[10px] sm:text-[11px] font-bold text-red-400 uppercase tracking-wider">
-                    Morris, MN
+                    Mobile Service Area
                   </div>
                 </div>
 

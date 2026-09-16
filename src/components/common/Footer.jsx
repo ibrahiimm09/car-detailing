@@ -29,11 +29,11 @@ export default function Footer() {
 
   const quickLinks = [
     { name: 'Home', href: '/' },
-    { name: 'Services', href: '#services' },
-    { name: 'Detailing Services', href: '/#services' },
-    { name: 'Pricing & Packages', href: '/cost-calculator' },
+    { name: 'Services', href: '/#services' },
+    { name: 'About', href: '/about' },
+    { name: 'Cost Calculator', href: '/cost-calculator' },
     { name: 'Service Areas', href: '/service-areas' },
-    { name: 'Contact & Booking', href: '/contact' },
+    { name: 'Contact', href: '/contact' },
   ];
 
   return (
