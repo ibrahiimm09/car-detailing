@@ -174,7 +174,7 @@ export default function FaqSection() {
               <Collapse
                 accordion
                 bordered={false}
-                expandIconPosition="end"
+                expandIconPlacement="end"
                 expandIcon={renderExpandIcon}
                 items={leftItems.map(formatItem)}
               />
@@ -183,7 +183,7 @@ export default function FaqSection() {
               <Collapse
                 accordion
                 bordered={false}
-                expandIconPosition="end"
+                expandIconPlacement="end"
                 expandIcon={renderExpandIcon}
                 items={rightItems.map(formatItem)}
               />

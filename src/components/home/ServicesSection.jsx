@@ -1,15 +1,15 @@
 import React from 'react';
-import { 
-  CalendarOutlined, 
+import {
+  CalendarOutlined,
   LeftOutlined,
   RightOutlined
 } from '@ant-design/icons';
-import { 
-  Armchair, 
-  Droplets, 
-  Sparkles, 
-  Truck, 
-  Building2, 
+import {
+  Armchair,
+  Droplets,
+  Sparkles,
+  Truck,
+  Building2,
   Ship,
   Wrench,
   Dog,
@@ -104,13 +104,13 @@ const addOns = [
 export default function ServicesSection() {
   return (
     <section id="services" className="relative bg-neutral-950 py-20 sm:py-24 overflow-hidden ">
-      
+
       {/* Background Subtle Gradient Accents */}
       <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[350px] bg-red-600/5 blur-[120px] rounded-full pointer-events-none" />
       <div className="absolute bottom-10 right-10 w-[400px] h-[300px] bg-amber-500/5 blur-[100px] rounded-full pointer-events-none" />
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-14 sm:mb-16 space-y-4">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-neutral-900 border border-neutral-800 text-xs font-semibold text-neutral-300">
@@ -132,7 +132,7 @@ export default function ServicesSection() {
 
         {/* Modern Swiper Carousel Container with Centered Left/Right Navigation Buttons */}
         <div className="relative mb-16 px-1 sm:px-4">
-          
+
           {/* Swiper Left Navigation Button - Hidden on Mobile, Centered on Tablet/Desktop */}
           <button
             type="button"
@@ -246,7 +246,7 @@ export default function ServicesSection() {
 
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3.5 sm:gap-4">
             {addOns.map((addon, index) => (
-              <div 
+              <div
                 key={index}
                 className="p-3.5 rounded-xl bg-neutral-950/80 border border-neutral-800/80 hover:border-red-500/30 transition-all text-center flex flex-col items-center justify-center space-y-2 group"
               >

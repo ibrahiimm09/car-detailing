@@ -6,9 +6,27 @@ import tailwindcss from '@tailwindcss/vite';
 
 // https://astro.build/config
 export default defineConfig({
+  compressHTML: true,
   integrations: [react()],
 
   vite: {
-    plugins: [tailwindcss()]
+    plugins: [tailwindcss()],
+    build: {
+      rollupOptions: {
+        output: {
+          manualChunks(id) {
+            if (id.includes('node_modules/react-dom') || id.includes('node_modules/react/')) {
+              return 'vendor-react';
+            }
+            if (id.includes('node_modules/antd') || id.includes('node_modules/@ant-design')) {
+              return 'vendor-antd';
+            }
+            if (id.includes('node_modules/swiper')) {
+              return 'vendor-swiper';
+            }
+          }
+        }
+      }
+    }
   }
 });

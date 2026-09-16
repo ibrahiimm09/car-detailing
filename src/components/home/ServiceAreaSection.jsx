@@ -1,15 +1,15 @@
 import React from 'react';
-import { 
-  CalendarOutlined, 
-  PhoneOutlined 
+import {
+  CalendarOutlined,
+  PhoneOutlined
 } from '@ant-design/icons';
-import { 
-  MapPin, 
-  Navigation, 
-  Compass, 
-  Waves, 
-  Sun, 
-  CornerDownRight, 
+import {
+  MapPin,
+  Navigation,
+  Compass,
+  Waves,
+  Sun,
+  CornerDownRight,
   Sparkles,
   CheckCircle2
 } from 'lucide-react';
@@ -65,11 +65,10 @@ const serviceRegions = [
 function RegionCard({ regionItem }) {
   return (
     <div
-      className={`w-full h-full rounded-2xl p-6 sm:p-7 border backdrop-blur-md flex flex-col justify-between transition-all duration-300 ${
-        regionItem.badge
+      className={`w-full h-full rounded-2xl p-6 sm:p-7 border backdrop-blur-md flex flex-col justify-between transition-all duration-300 ${regionItem.badge
           ? 'bg-neutral-900/90 border-red-500/40 shadow-xl shadow-red-600/5 hover:border-red-500/60'
           : 'bg-neutral-950/80 border-neutral-800/90 hover:border-neutral-700/90 hover:bg-neutral-900/70'
-      }`}
+        }`}
     >
       <div>
         {/* Region Card Header */}
@@ -119,13 +118,13 @@ function RegionCard({ regionItem }) {
 export default function ServiceAreaSection() {
   return (
     <section id="service-area" className="relative bg-neutral-900/40 py-20 sm:py-24 lg:py-28 border-b border-neutral-800/80 overflow-hidden ">
-      
+
       {/* Background Ambient Glow Accents */}
       <div className="absolute top-1/4 right-1/4 w-[550px] h-[350px] bg-red-600/5 blur-[150px] rounded-full pointer-events-none" />
       <div className="absolute bottom-1/4 left-1/4 w-[500px] h-[350px] bg-amber-500/5 blur-[140px] rounded-full pointer-events-none" />
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 z-10">
-        
+
         {/* Centered Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-14 sm:mb-16 space-y-4">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-neutral-900 border border-neutral-800 text-xs font-semibold text-neutral-300">
@@ -217,15 +216,15 @@ export default function ServiceAreaSection() {
           </div>
         </div> */}
         {/* Centered Get My Free Quote Button */}
-                <div className="flex justify-center">
-                  <a
-                    href="#contact-booking"
-                    className="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-xl text-xs sm:text-sm font-semibold text-white bg-gradient-to-r from-red-600 to-red-700 hover:from-red-500 hover:to-red-600 shadow-lg shadow-red-600/25 hover:-translate-y-0.5 transition-all duration-200 border border-red-500/40"
-                  >
-                    {/* <CalendarOutlined className="text-sm" /> */}
-                    <span>Get My Free Quote</span>
-                  </a>
-                </div>
+        <div className="flex justify-center">
+          <a
+            href="#contact-booking"
+            className="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-xl text-xs sm:text-sm font-semibold text-white bg-gradient-to-r from-red-600 to-red-700 hover:from-red-500 hover:to-red-600 shadow-lg shadow-red-600/25 hover:-translate-y-0.5 transition-all duration-200 border border-red-500/40"
+          >
+            {/* <CalendarOutlined className="text-sm" /> */}
+            <span>Get My Free Quote</span>
+          </a>
+        </div>
 
       </div>
     </section>

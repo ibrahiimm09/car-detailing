@@ -53,12 +53,12 @@ const detailVsWashData = [
 export default function CarWashAndVacSection() {
   return (
     <section id="car-wash-and-vac" className="relative bg-neutral-950 py-16 sm:py-20 lg:py-24 border-b border-neutral-900 overflow-hidden ">
-      
+
       {/* Background Ambient Glow Accents */}
       <div className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-150 h-87.5 bg-red-600/5 blur-[140px] rounded-full pointer-events-none" />
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12 sm:space-y-16">
-        
+
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto space-y-4">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-neutral-900 border border-neutral-800 text-xs font-semibold text-neutral-300">
@@ -190,7 +190,7 @@ export default function CarWashAndVacSection() {
               </div>
             </div>
           </div>
-          
+
           {/* Left Column: Zero-click answer block */}
           <div className="rounded-2xl sm:rounded-3xl border border-neutral-800 bg-neutral-900/40 overflow-hidden flex flex-col justify-between shadow-lg">
             <div>

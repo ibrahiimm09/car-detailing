@@ -257,7 +257,7 @@ export default function ProjectGallerySection() {
         onCancel={() => setActiveViewerImage(null)}
         footer={null}
         centered
-        destroyOnClose
+        destroyOnHidden
         width="96%"
         style={{
           maxWidth: '1120px',

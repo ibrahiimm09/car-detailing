@@ -87,12 +87,12 @@ function CostCard({ row }) {
 export default function MorrisConditionsCostSection() {
   return (
     <section id="conditions-cost" className="relative bg-neutral-950 py-18 sm:py-22 lg:py-26 border-b border-neutral-800/80  overflow-hidden">
-      
+
       {/* Background Ambient Glow Accents */}
       <div className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[350px] bg-red-600/5 blur-[140px] rounded-full pointer-events-none" />
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 z-10 space-y-12 sm:space-y-16">
-        
+
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto space-y-4">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-neutral-900 border border-neutral-800 text-xs font-semibold text-neutral-300">
@@ -106,7 +106,7 @@ export default function MorrisConditionsCostSection() {
               Actually Cost You
             </span>
           </h2>
-          
+
           <p className="text-sm sm:text-base text-neutral-300 leading-relaxed font-normal max-w-2xl mx-auto">
             None of this happens overnight. That is exactly the problem. It happens slowly enough that you stop noticing, and then one day you go to trade the vehicle in and it looks ten years old inside.
           </p>

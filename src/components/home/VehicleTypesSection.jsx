@@ -1,16 +1,16 @@
 import React from 'react';
-import { 
-  CalendarOutlined, 
+import {
+  CalendarOutlined,
   PhoneOutlined
 } from '@ant-design/icons';
-import { 
-  Car, 
-  Truck, 
-  Tractor, 
-  Building2, 
-  Ship, 
-  Sparkles, 
-  Compass, 
+import {
+  Car,
+  Truck,
+  Tractor,
+  Building2,
+  Ship,
+  Sparkles,
+  Compass,
   Maximize2,
   Users
 } from 'lucide-react';
@@ -108,11 +108,10 @@ const vehicleTypesData = [
 function VehicleCard({ v }) {
   return (
     <div
-      className={`w-full h-full min-h-[260px] rounded-2xl p-5 sm:p-6 border backdrop-blur-md flex flex-col justify-between transition-all ${
-        v.badge 
-          ? 'bg-neutral-900/90 border-red-500/50 shadow-lg shadow-red-600/10' 
+      className={`w-full h-full min-h-[260px] rounded-2xl p-5 sm:p-6 border backdrop-blur-md flex flex-col justify-between transition-all ${v.badge
+          ? 'bg-neutral-900/90 border-red-500/50 shadow-lg shadow-red-600/10'
           : 'bg-neutral-950/80 border-neutral-800/90 hover:border-neutral-700'
-      }`}
+        }`}
     >
       <div>
         <div className="flex items-center justify-between gap-2 mb-3">
@@ -162,13 +161,13 @@ function VehicleCard({ v }) {
 export default function VehicleTypesSection() {
   return (
     <section id="vehicle-types" className="relative bg-neutral-900/40 py-20 sm:py-24 lg:py-28 border-y border-neutral-800/80 overflow-hidden ">
-      
+
       {/* Subtle Background Glow Accents */}
       <div className="absolute top-1/4 right-1/4 w-[500px] h-[350px] bg-red-600/5 blur-[140px] rounded-full pointer-events-none" />
       <div className="absolute bottom-1/4 left-1/4 w-[500px] h-[300px] bg-amber-500/5 blur-[140px] rounded-full pointer-events-none" />
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 z-10">
-        
+
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-14 sm:mb-16 space-y-4">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-neutral-900 border border-neutral-800 text-xs font-semibold text-neutral-300">
@@ -200,7 +199,7 @@ export default function VehicleTypesSection() {
             </thead>
             <tbody className="divide-y divide-neutral-800/60 text-xs sm:text-sm">
               {vehicleTypesData.map((v, i) => (
-                <tr 
+                <tr
                   key={i}
                   className={`hover:bg-neutral-900/40 transition-colors ${v.badge ? 'bg-red-950/10' : ''}`}
                 >
@@ -318,15 +317,15 @@ export default function VehicleTypesSection() {
         </div> */}
 
         {/* Centered Get My Free Quote Button */}
-                <div className="flex justify-center">
-                  <a
-                    href="tel:+15558392849"
-                    className="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-xl text-xs sm:text-sm font-semibold text-white bg-gradient-to-r from-red-600 to-red-700 hover:from-red-500 hover:to-red-600 shadow-lg shadow-red-600/25 hover:-translate-y-0.5 transition-all duration-200 border border-red-500/40"
-                  >
-                    {/* <CalendarOutlined className="text-sm" /> */}
-                    <span>Call us +1 320-287-3573</span>
-                  </a>
-                </div>
+        <div className="flex justify-center">
+          <a
+            href="tel:+15558392849"
+            className="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-xl text-xs sm:text-sm font-semibold text-white bg-gradient-to-r from-red-600 to-red-700 hover:from-red-500 hover:to-red-600 shadow-lg shadow-red-600/25 hover:-translate-y-0.5 transition-all duration-200 border border-red-500/40"
+          >
+            {/* <CalendarOutlined className="text-sm" /> */}
+            <span>Call us +1 320-287-3573</span>
+          </a>
+        </div>
 
       </div>
     </section>

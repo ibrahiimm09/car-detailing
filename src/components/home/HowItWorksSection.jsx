@@ -1,16 +1,16 @@
 import React from 'react';
-import { 
-  CalendarOutlined, 
-  PhoneOutlined, 
+import {
+  CalendarOutlined,
+  PhoneOutlined,
   ClockCircleOutlined
 } from '@ant-design/icons';
-import { 
-  Truck, 
-  Sparkles, 
-  Droplet, 
-  Plug, 
-  Quote, 
-  MessageSquare, 
+import {
+  Truck,
+  Sparkles,
+  Droplet,
+  Plug,
+  Quote,
+  MessageSquare,
   CheckCircle2
 } from 'lucide-react';
 
@@ -86,13 +86,13 @@ function StepCard({ item }) {
 export default function HowItWorksSection() {
   return (
     <section id="how-it-works" className="relative bg-neutral-950 py-20 sm:py-24 lg:py-28 overflow-hidden  border-b border-neutral-800/80">
-      
+
       {/* Background Ambient Glow Accents */}
       <div className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-150 h-87.5 bg-red-600/5 blur-[140px] rounded-full pointer-events-none" />
       <div className="absolute bottom-10 left-10 w-100 h-75 bg-amber-500/5 blur-[120px] rounded-full pointer-events-none" />
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 z-10">
-        
+
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16 sm:mb-20 space-y-4">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-neutral-900 border border-neutral-800 text-xs font-semibold text-neutral-300">

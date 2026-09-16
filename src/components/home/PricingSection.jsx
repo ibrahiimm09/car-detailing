@@ -1,17 +1,17 @@
 import React, { useState } from 'react';
-import { 
-  CalendarOutlined, 
-  ClockCircleOutlined, 
+import {
+  CalendarOutlined,
+  ClockCircleOutlined,
   PhoneOutlined
 } from '@ant-design/icons';
-import { 
-  Sparkles, 
-  Droplets, 
-  Armchair, 
-  Zap, 
-  Layers, 
-  Wrench, 
-  Dog, 
+import {
+  Sparkles,
+  Droplets,
+  Armchair,
+  Zap,
+  Layers,
+  Wrench,
+  Dog,
   Wind,
   ShieldCheck,
   Star
@@ -107,11 +107,10 @@ const addOnsList = [
 function PackageCard({ pkg }) {
   return (
     <div
-      className={`w-full h-full min-h-[420px] rounded-2xl p-6 sm:p-7 flex flex-col justify-between transition-all duration-300 backdrop-blur-md ${
-        pkg.featured
+      className={`w-full h-full min-h-[420px] rounded-2xl p-6 sm:p-7 flex flex-col justify-between transition-all duration-300 backdrop-blur-md ${pkg.featured
           ? 'bg-zinc-900/90 border-2 border-red-500/60 shadow-xl shadow-red-600/10'
           : 'bg-zinc-900/60 border border-zinc-800/90 hover:border-zinc-700 hover:bg-zinc-900/80 shadow-lg'
-      }`}
+        }`}
     >
       <div>
         <div className="flex items-center justify-between gap-2 mb-4 min-h-[40px]">
@@ -159,11 +158,10 @@ function PackageCard({ pkg }) {
 
       <a
         href="/contact"
-        className={`w-full inline-flex items-center justify-center gap-2 py-3 px-4 rounded-xl text-xs sm:text-sm font-bold uppercase tracking-wider transition-all duration-200 mt-auto ${
-          pkg.featured
+        className={`w-full inline-flex items-center justify-center gap-2 py-3 px-4 rounded-xl text-xs sm:text-sm font-bold uppercase tracking-wider transition-all duration-200 mt-auto ${pkg.featured
             ? 'bg-gradient-to-r from-red-600 to-red-700 hover:from-red-500 hover:to-red-600 text-white shadow-lg shadow-red-600/30'
             : 'bg-zinc-950 hover:bg-zinc-800 text-zinc-200 hover:text-white border border-zinc-800'
-        }`}
+          }`}
       >
         <CalendarOutlined />
         <span>Book Package</span>
@@ -177,13 +175,13 @@ export default function PricingSection() {
 
   return (
     <section id="pricing" className="relative bg-neutral-900/50 py-20 sm:py-24 lg:py-28 border-y border-zinc-800/80 overflow-hidden ">
-      
+
       {/* Zinc Ambient Glow Accents */}
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-zinc-900/40 via-zinc-950 to-zinc-950 pointer-events-none" />
       <div className="absolute top-1/4 left-1/3 w-[500px] h-[300px] bg-red-600/5 blur-[150px] rounded-full pointer-events-none" />
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 z-10">
-        
+
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-10 sm:mb-12 space-y-4">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-zinc-900 border border-zinc-800 text-xs font-semibold text-zinc-300">
@@ -208,11 +206,10 @@ export default function PricingSection() {
               <button
                 type="button"
                 onClick={() => setActiveKey('express')}
-                className={`whitespace-nowrap px-3.5 sm:px-5 py-2 sm:py-2.5 rounded-xl text-xs sm:text-sm font-bold font-['Outfit'] transition-colors duration-150 cursor-pointer border  focus:outline-none ${
-                  activeKey === 'express'
+                className={`whitespace-nowrap px-3.5 sm:px-5 py-2 sm:py-2.5 rounded-xl text-xs sm:text-sm font-bold font-['Outfit'] transition-colors duration-150 cursor-pointer border  focus:outline-none ${activeKey === 'express'
                     ? 'bg-gradient-to-r from-red-600 to-red-700 text-white shadow-md shadow-red-600/25 border-red-500/40'
                     : 'text-zinc-400 hover:text-white hover:bg-zinc-800/60 border-transparent'
-                }`}
+                  }`}
               >
                 Express Series
               </button>
@@ -220,11 +217,10 @@ export default function PricingSection() {
               <button
                 type="button"
                 onClick={() => setActiveKey('executive')}
-                className={`whitespace-nowrap px-3.5 sm:px-5 py-2 sm:py-2.5 rounded-xl text-xs sm:text-sm font-bold font-['Outfit'] transition-colors duration-150 cursor-pointer border  focus:outline-none ${
-                  activeKey === 'executive'
+                className={`whitespace-nowrap px-3.5 sm:px-5 py-2 sm:py-2.5 rounded-xl text-xs sm:text-sm font-bold font-['Outfit'] transition-colors duration-150 cursor-pointer border  focus:outline-none ${activeKey === 'executive'
                     ? 'bg-gradient-to-r from-red-600 to-red-700 text-white shadow-md shadow-red-600/25 border-red-500/40'
                     : 'text-zinc-400 hover:text-white hover:bg-zinc-800/60 border-transparent'
-                }`}
+                  }`}
               >
                 Executive Series
               </button>
@@ -232,11 +228,10 @@ export default function PricingSection() {
               <button
                 type="button"
                 onClick={() => setActiveKey('all')}
-                className={`whitespace-nowrap px-3.5 sm:px-5 py-2 sm:py-2.5 rounded-xl text-xs sm:text-sm font-bold font-['Outfit'] transition-colors duration-150 cursor-pointer border  focus:outline-none ${
-                  activeKey === 'all'
+                className={`whitespace-nowrap px-3.5 sm:px-5 py-2 sm:py-2.5 rounded-xl text-xs sm:text-sm font-bold font-['Outfit'] transition-colors duration-150 cursor-pointer border  focus:outline-none ${activeKey === 'all'
                     ? 'bg-gradient-to-r from-red-600 to-red-700 text-white shadow-md shadow-red-600/25 border-red-500/40'
                     : 'text-zinc-400 hover:text-white hover:bg-zinc-800/60 border-transparent'
-                }`}
+                  }`}
               >
                 All Series
               </button>
@@ -345,7 +340,7 @@ export default function PricingSection() {
           {/* 3. Tab Content: All Series */}
           {activeKey === 'all' && (
             <div className="mb-16 sm:mb-20 space-y-14">
-              
+
               {/* Express Block inside All Series */}
               <div>
                 <div className="flex items-center gap-2 pb-3 border-b border-zinc-800 mb-6">
@@ -444,7 +439,7 @@ export default function PricingSection() {
 
         {/* 4. Vehicle Size & Add-Ons Surcharges (Side-by-Side Tables) */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 ">
-          
+
           {/* Vehicle Size Table */}
           <div className="lg:col-span-7 rounded-2xl bg-zinc-900/60 border border-zinc-800 p-6 sm:p-8 backdrop-blur-md flex flex-col justify-between">
             <div>
@@ -475,13 +470,12 @@ export default function PricingSection() {
                           {v.type}
                         </td>
                         <td className="py-3.5 px-4 text-right">
-                          <span className={`font-bold ${
-                            v.isBase 
-                              ? 'text-zinc-400 font-medium' 
+                          <span className={`font-bold ${v.isBase
+                              ? 'text-zinc-400 font-medium'
                               : v.add === 'Custom quote'
                                 ? 'text-amber-400'
                                 : 'text-red-400 font-extrabold'
-                          }`}>
+                            }`}>
                             {v.add}
                           </span>
                         </td>

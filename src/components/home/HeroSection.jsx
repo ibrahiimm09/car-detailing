@@ -55,6 +55,8 @@ export default function HeroSection() {
           fetchPriority="high"
           loading="eager"
           decoding="async"
+          width="500"
+          height="889"
           className="w-full h-full object-cover object-center opacity-45 brightness-90"
         />
       </div>
@@ -131,11 +133,11 @@ export default function HeroSection() {
               </a>
             </div>
 
-          </div>  
+          </div>
 
           {/* Right Column: "Our Services Include:" Sidebar Card (Strictly Locked Width) */}
           <div className="lg:col-span-5 xl:col-span-4 w-full flex justify-center lg:justify-end lg:mb-0 mb-10">
-            <div 
+            <div
               className="relative rounded-2xl bg-neutral-950/85 border border-neutral-800/90 p-4 sm:p-5 lg:p-6 shadow-2xl backdrop-blur-xl w-full max-w-[380px]"
               style={{ maxWidth: '380px' }}
             >

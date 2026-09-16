@@ -48,8 +48,8 @@ export default function Footer() {
           {/* Column 1: Brand Info & Bio */}
           <div className="col-span-2 lg:col-span-4 xl:col-span-4 space-y-4">
             {/* Logo */}
-            <a 
-              href="/" 
+            <a
+              href="/"
               className="inline-block transition-transform duration-200 hover:opacity-95 focus:outline-none"
               title="Dos Bros Auto Detailing"
             >
@@ -227,7 +227,7 @@ export default function Footer() {
 
         {/* Bottom Bar: Copyright & Legal / Feedback Links */}
         <div className="pt-6 sm:pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-neutral-500">
-          
+
           {/* Copyright */}
           <div className="flex flex-col sm:flex-row items-center gap-1 sm:gap-2 text-center md:text-left">
             <p>© {currentYear} Dos Bros Detailing. All rights reserved.</p>

@@ -457,9 +457,9 @@ const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbw9Y8GQyClTl_
                         <Select
                           placeholder="Select service..."
                           allowClear={true}
-                          popupClassName="dark-select-dropdown"
                           popupMatchSelectWidth={true}
-                          dropdownStyle={{ backgroundColor: '#000000', padding: '4px' }}
+                          classNames={{ popup: { root: "dark-select-dropdown" } }}
+                          styles={{ popup: { root: { backgroundColor: '#000000', padding: '4px' } } }}
                           className="w-full"
                           options={[
                             { value: 'Interior Detailing', label: 'Interior Detailing' },

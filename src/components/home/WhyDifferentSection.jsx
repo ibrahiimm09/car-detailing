@@ -1,11 +1,11 @@
 import React from 'react';
-import { 
-  Wind, 
-  Snowflake, 
-  Dog, 
-  Tractor, 
-  Sun, 
-  Droplets, 
+import {
+  Wind,
+  Snowflake,
+  Dog,
+  Tractor,
+  Sun,
+  Droplets,
   MapPin
 } from 'lucide-react';
 
@@ -100,7 +100,7 @@ function ConditionCard({ card }) {
 export default function WhyDifferentSection() {
   return (
     <section id="why-different" className="relative bg-neutral-950 py-20 sm:py-24 lg:py-28  border-b border-neutral-800/80">
-      
+
       {/* Background Ambient Glow Accents (isolated in overflow-hidden so sticky column is never broken) */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute top-1/4 left-1/3 w-[600px] h-[400px] bg-red-600/5 blur-[150px] rounded-full" />
@@ -108,10 +108,10 @@ export default function WhyDifferentSection() {
       </div>
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 z-10">
-        
+
         {/* 1. Main Sticky 2-Column Section */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-start ">
-          
+
           {/* Left Sticky Column (Pinned on Desktop while scrolling through cards) */}
           <div className="lg:col-span-5 lg:sticky lg:top-28 self-start space-y-6">
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-neutral-900 border border-neutral-800 text-xs font-semibold text-neutral-300">
@@ -148,7 +148,7 @@ export default function WhyDifferentSection() {
 
           {/* Right Column: Desktop Vertical Scroll + Mobile Swiper Carousel */}
           <div className="lg:col-span-7">
-            
+
             {/* Desktop / Large Screen: Smooth Vertical Scroll List */}
             <div className="hidden lg:block space-y-6">
               {conditionCards.map((card, idx) => (
