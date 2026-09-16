@@ -189,8 +189,8 @@ export default function Footer() {
                   <MapPin className="w-3.5 h-3.5" />
                 </div>
                 <div className="leading-snug">
-                  <span className="text-neutral-300 font-medium block">Morris, MN 56267</span>
-                  <span className="text-[11px] text-neutral-500">Stevens County & Surrounding Cities</span>
+                  <span className="text-neutral-300 font-medium block">Mobile Service Area</span>
+                  <span className="text-[11px] text-neutral-500">Morris, MN & surrounding areas</span>
                 </div>
               </div>
 
@@ -232,7 +232,7 @@ export default function Footer() {
           <div className="flex flex-col sm:flex-row items-center gap-1 sm:gap-2 text-center md:text-left">
             <p>© {currentYear} Dos Bros Detailing. All rights reserved.</p>
             <span className="hidden sm:inline text-neutral-700">•</span>
-            <span className="text-neutral-400">Morris, Minnesota</span>
+            {/* <span className="text-neutral-400">Morris, Minnesota</span> */}
           </div>
 
           {/* Legal & Feedback Links */}
