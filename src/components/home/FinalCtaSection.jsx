@@ -218,9 +218,9 @@ const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbw9Y8GQyClTl_
                     <MapPin className="w-3.5 h-3.5 text-red-400" />
                   </div>
                   <div className="min-w-0 flex-1">
-                    <span className="block text-[9px] text-neutral-500 uppercase tracking-wider">Morris, MN & surrounding areas </span>
+                    <span className="block text-[9px] text-neutral-500 uppercase tracking-wider">Mobile Service Area  </span>
                     <span className="block text-xs font-semibold text-white">
-                      Mobile Service Area
+                      Morris, MN & surrounding areas
                     </span>
                   </div>
                 </div>

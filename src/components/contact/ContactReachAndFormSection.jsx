@@ -212,8 +212,8 @@ export default function ContactReachAndFormSection() {
                       <MapPin className="w-4 h-4" />
                     </div>
                     <div className="leading-tight min-w-0">
-                      <span className="text-neutral-200 text-xs sm:text-[13px] font-medium block truncate">Morris, MN 56267</span>
-                      <span className="text-[10px] sm:text-[11px] text-neutral-500 block truncate">Stevens County & Surrounding</span>
+                      <span className="text-neutral-200 text-xs sm:text-[13px] font-medium block truncate">Mobile Service Area  </span>
+                      <span className="text-[10px] sm:text-[11px] text-neutral-500 block truncate">Morris, MN & surrounding areas</span>
                     </div>
                   </div>
 
