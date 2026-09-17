@@ -11,6 +11,7 @@ interface Props {
 	showFooter?: boolean;
 	image?: string;
 	preloadImage?: string;
+	noindex?: boolean;
 }
 
 const {
@@ -20,6 +21,7 @@ const {
 	showFooter = true,
 	image = "/logo.webp",
 	preloadImage,
+	noindex = false,
 } = Astro.props;
 
 const siteUrl = "https://dosbrosdetailingmn.com";
@@ -55,6 +57,7 @@ const ogImageURL = new URL(image, siteUrl).toString();
 		<title>{title}</title>
 		<meta name="title" content={title} />
 		<meta name="description" content={description} />
+		{noindex && <meta name="robots" content="noindex, nofollow" />}
 		<link rel="canonical" href={canonicalURL} />
 		{
 			preloadImage && (
