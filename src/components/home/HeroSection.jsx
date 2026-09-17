@@ -98,14 +98,14 @@ export default function HeroSection() {
 
             {/* Main Headline with Highlight Gradient */}
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white tracking-tight font-['Outfit'] leading-[1.12]">
-              Mobile Car Detailing <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-amber-500">
+              Best Mobile Car Detailing <br />
+              <span className="text-transparent bg-clip-text bg-linear-to-r from-red-500 to-amber-500">
                 in Morris, MN
               </span>
             </h1>
 
             {/* Prominent Subtitle */}
-            <p className="text-base sm:text-lg font-medium text-neutral-200 font-['Outfit'] leading-relaxed">
+            <p className="text-base sm:text-lg font-bold text-neutral-200 font-['Outfit'] leading-relaxed">
               Two brothers from Morris. We come to you.
             </p>
 
@@ -118,7 +118,7 @@ export default function HeroSection() {
             <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 pt-2">
               <a
                 href="/contact"
-                className="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl text-xs sm:text-sm font-semibold text-white bg-gradient-to-r from-red-600 to-red-700 hover:from-red-500 hover:to-red-600 shadow-lg shadow-red-600/20 hover:-translate-y-0.5 transition-all duration-200 border border-red-500/40"
+                className="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl text-xs sm:text-sm font-semibold text-white bg-linear-to-r from-red-600 to-red-700 hover:from-red-500 hover:to-red-600 shadow-lg shadow-red-600/20 hover:-translate-y-0.5 transition-all duration-200 border border-red-500/40"
               >
                 <CalendarOutlined className="text-sm" />
                 <span>Book Your Detailing</span>
@@ -138,16 +138,16 @@ export default function HeroSection() {
           {/* Right Column: "Our Services Include:" Sidebar Card (Strictly Locked Width) */}
           <div className="lg:col-span-5 xl:col-span-4 w-full flex justify-center lg:justify-end lg:mb-0 mb-10">
             <div
-              className="relative rounded-2xl bg-neutral-950/85 border border-neutral-800/90 p-4 sm:p-5 lg:p-6 shadow-2xl backdrop-blur-xl w-full max-w-[380px]"
+              className="relative rounded-2xl bg-neutral-950/85 border border-neutral-800/90 p-4 sm:p-5 lg:p-6 shadow-2xl backdrop-blur-xl w-full max-w-95"
               style={{ maxWidth: '380px' }}
             >
 
               {/* Card Header with Car Icon */}
               <div className="flex items-center gap-2.5 pb-3.5 mb-3 border-b border-neutral-800/80">
-                <CarOutlined className="text-white text-base text-red-500" />
-                <h2 className="text-sm sm:text-base font-semibold text-white font-['Outfit']">
+                <CarOutlined className="text-white text-base" />
+                <p className="text-sm sm:text-base font-semibold text-white font-['Outfit']">
                   Our Services Include:
-                </h2>
+                </p>
               </div>
 
               {/* Services List */}

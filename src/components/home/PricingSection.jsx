@@ -107,13 +107,13 @@ const addOnsList = [
 function PackageCard({ pkg }) {
   return (
     <div
-      className={`w-full h-full min-h-[420px] rounded-2xl p-6 sm:p-7 flex flex-col justify-between transition-all duration-300 backdrop-blur-md ${pkg.featured
+      className={`w-full h-full min-h-105 rounded-2xl p-6 sm:p-7 flex flex-col justify-between transition-all duration-300 backdrop-blur-md ${pkg.featured
           ? 'bg-zinc-900/90 border-2 border-red-500/60 shadow-xl shadow-red-600/10'
           : 'bg-zinc-900/60 border border-zinc-800/90 hover:border-zinc-700 hover:bg-zinc-900/80 shadow-lg'
         }`}
     >
       <div>
-        <div className="flex items-center justify-between gap-2 mb-4 min-h-[40px]">
+        <div className="flex items-center justify-between gap-2 mb-4 min-h-10">
           <div className="w-10 h-10 rounded-xl bg-zinc-950 border border-zinc-800 flex items-center justify-center shrink-0">
             {pkg.icon}
           </div>
@@ -149,7 +149,7 @@ function PackageCard({ pkg }) {
             <span className="text-[11px] font-bold uppercase tracking-wider text-zinc-500 block mb-1">
               Best for:
             </span>
-            <p className="text-xs sm:text-sm text-zinc-300 leading-relaxed min-h-[40px] sm:min-h-[44px]">
+            <p className="text-xs sm:text-sm text-zinc-300 leading-relaxed min-h-10 sm:min-h-11">
               {pkg.bestFor}
             </p>
           </div>
@@ -159,7 +159,7 @@ function PackageCard({ pkg }) {
       <a
         href="/contact"
         className={`w-full inline-flex items-center justify-center gap-2 py-3 px-4 rounded-xl text-xs sm:text-sm font-bold uppercase tracking-wider transition-all duration-200 mt-auto ${pkg.featured
-            ? 'bg-gradient-to-r from-red-600 to-red-700 hover:from-red-500 hover:to-red-600 text-white shadow-lg shadow-red-600/30'
+            ? 'bg-linear-to-r from-red-600 to-red-700 hover:from-red-500 hover:to-red-600 text-white shadow-lg shadow-red-600/30'
             : 'bg-zinc-950 hover:bg-zinc-800 text-zinc-200 hover:text-white border border-zinc-800'
           }`}
       >
@@ -177,8 +177,8 @@ export default function PricingSection() {
     <section id="pricing" className="relative bg-neutral-900/50 py-20 sm:py-24 lg:py-28 border-y border-zinc-800/80 overflow-hidden ">
 
       {/* Zinc Ambient Glow Accents */}
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-zinc-900/40 via-zinc-950 to-zinc-950 pointer-events-none" />
-      <div className="absolute top-1/4 left-1/3 w-[500px] h-[300px] bg-red-600/5 blur-[150px] rounded-full pointer-events-none" />
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,var(--tw-gradient-stops))] from-zinc-900/40 via-zinc-950 to-zinc-950 pointer-events-none" />
+      <div className="absolute top-1/4 left-1/3 w-125 h-75 bg-red-600/5 blur-[150px] rounded-full pointer-events-none" />
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 z-10">
 
@@ -191,7 +191,7 @@ export default function PricingSection() {
 
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white font-['Outfit'] tracking-tight leading-[1.15]">
             Our Packages and <br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-amber-500">
+            <span className="text-transparent bg-clip-text bg-linear-to-r from-red-500 to-amber-500">
               what they start at
             </span>
           </h2>
@@ -207,7 +207,7 @@ export default function PricingSection() {
                 type="button"
                 onClick={() => setActiveKey('express')}
                 className={`whitespace-nowrap px-3.5 sm:px-5 py-2 sm:py-2.5 rounded-xl text-xs sm:text-sm font-bold font-['Outfit'] transition-colors duration-150 cursor-pointer border  focus:outline-none ${activeKey === 'express'
-                    ? 'bg-gradient-to-r from-red-600 to-red-700 text-white shadow-md shadow-red-600/25 border-red-500/40'
+                    ? 'bg-linear-to-r from-red-600 to-red-700 text-white shadow-md shadow-red-600/25 border-red-500/40'
                     : 'text-zinc-400 hover:text-white hover:bg-zinc-800/60 border-transparent'
                   }`}
               >
@@ -218,7 +218,7 @@ export default function PricingSection() {
                 type="button"
                 onClick={() => setActiveKey('executive')}
                 className={`whitespace-nowrap px-3.5 sm:px-5 py-2 sm:py-2.5 rounded-xl text-xs sm:text-sm font-bold font-['Outfit'] transition-colors duration-150 cursor-pointer border  focus:outline-none ${activeKey === 'executive'
-                    ? 'bg-gradient-to-r from-red-600 to-red-700 text-white shadow-md shadow-red-600/25 border-red-500/40'
+                    ? 'bg-linear-to-r from-red-600 to-red-700 text-white shadow-md shadow-red-600/25 border-red-500/40'
                     : 'text-zinc-400 hover:text-white hover:bg-zinc-800/60 border-transparent'
                   }`}
               >
@@ -229,7 +229,7 @@ export default function PricingSection() {
                 type="button"
                 onClick={() => setActiveKey('all')}
                 className={`whitespace-nowrap px-3.5 sm:px-5 py-2 sm:py-2.5 rounded-xl text-xs sm:text-sm font-bold font-['Outfit'] transition-colors duration-150 cursor-pointer border  focus:outline-none ${activeKey === 'all'
-                    ? 'bg-gradient-to-r from-red-600 to-red-700 text-white shadow-md shadow-red-600/25 border-red-500/40'
+                    ? 'bg-linear-to-r from-red-600 to-red-700 text-white shadow-md shadow-red-600/25 border-red-500/40'
                     : 'text-zinc-400 hover:text-white hover:bg-zinc-800/60 border-transparent'
                   }`}
               >
@@ -240,7 +240,7 @@ export default function PricingSection() {
         </div>
 
         {/* Tab Panels Container with key={activeKey} for smooth fade transitions */}
-        <div key={activeKey} className="tab-fade-in min-h-[480px]">
+        <div key={activeKey} className="tab-fade-in min-h-120">
           {/* 1. Tab Content: Express Series */}
           {activeKey === 'express' && (
             <div className="mb-16 sm:mb-20">
@@ -268,10 +268,10 @@ export default function PricingSection() {
                   }}
                   spaceBetween={16}
                   slidesPerView={1}
-                  className="pricing-swiper !pb-0"
+                  className="pricing-swiper pb-0!"
                 >
                   {expressPackages.map((pkg, idx) => (
-                    <SwiperSlide key={idx} className="!h-auto flex">
+                    <SwiperSlide key={idx} className="h-auto! flex">
                       <PackageCard pkg={pkg} />
                     </SwiperSlide>
                   ))}
@@ -316,10 +316,10 @@ export default function PricingSection() {
                   }}
                   spaceBetween={16}
                   slidesPerView={1}
-                  className="pricing-swiper !pb-0"
+                  className="pricing-swiper pb-0!"
                 >
                   {executivePackages.map((pkg, idx) => (
-                    <SwiperSlide key={idx} className="!h-auto flex">
+                    <SwiperSlide key={idx} className="h-auto! flex">
                       <PackageCard pkg={pkg} />
                     </SwiperSlide>
                   ))}
@@ -368,10 +368,10 @@ export default function PricingSection() {
                     }}
                     spaceBetween={16}
                     slidesPerView={1}
-                    className="pricing-swiper !pb-0"
+                    className="pricing-swiper pb-0!"
                   >
                     {expressPackages.map((pkg, idx) => (
-                      <SwiperSlide key={idx} className="!h-auto flex">
+                      <SwiperSlide key={idx} className="h-auto! flex">
                         <PackageCard pkg={pkg} />
                       </SwiperSlide>
                     ))}
@@ -414,10 +414,10 @@ export default function PricingSection() {
                     }}
                     spaceBetween={16}
                     slidesPerView={1}
-                    className="pricing-swiper !pb-0"
+                    className="pricing-swiper pb-0!"
                   >
                     {executivePackages.map((pkg, idx) => (
-                      <SwiperSlide key={idx} className="!h-auto flex">
+                      <SwiperSlide key={idx} className="h-auto! flex">
                         <PackageCard pkg={pkg} />
                       </SwiperSlide>
                     ))}

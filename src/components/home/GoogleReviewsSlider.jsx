@@ -225,10 +225,10 @@ export default function GoogleReviewsSlider() {
               spaceBetween: 22,
             },
           }}
-          className="reviews-swiper !pb-2"
+          className="reviews-swiper pb-2!"
         >
           {reviews.map((review) => (
-            <SwiperSlide key={review.id} className="!h-auto flex">
+            <SwiperSlide key={review.id} className="h-auto! flex">
               <div className="w-full bg-neutral-900/60 hover:bg-neutral-900/95 border border-neutral-800/80 hover:border-neutral-700/90 rounded-2xl p-4 sm:p-5 transition-all duration-300 flex flex-col justify-between shadow-lg shadow-black/20 hover:shadow-red-500/5 select-none h-full">
                 <div>
                   {/* Reviewer Header */}

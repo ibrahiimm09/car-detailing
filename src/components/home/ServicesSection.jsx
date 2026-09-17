@@ -106,8 +106,8 @@ export default function ServicesSection() {
     <section id="services" className="relative bg-neutral-950 py-20 sm:py-24 overflow-hidden ">
 
       {/* Background Subtle Gradient Accents */}
-      <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[350px] bg-red-600/5 blur-[120px] rounded-full pointer-events-none" />
-      <div className="absolute bottom-10 right-10 w-[400px] h-[300px] bg-amber-500/5 blur-[100px] rounded-full pointer-events-none" />
+      <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-150 h-87.5 bg-red-600/5 blur-[120px] rounded-full pointer-events-none" />
+      <div className="absolute bottom-10 right-10 w-100 h-75 bg-amber-500/5 blur-[100px] rounded-full pointer-events-none" />
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
@@ -120,7 +120,7 @@ export default function ServicesSection() {
 
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white font-['Outfit'] tracking-tight leading-[1.15]">
             Our Car Detailing Services <br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-amber-500">
+            <span className="text-transparent bg-clip-text bg-linear-to-r from-red-500 to-amber-500">
               in Morris, MN
             </span>
           </h2>
@@ -193,11 +193,11 @@ export default function ServicesSection() {
                 spaceBetween: 32,
               },
             }}
-            className="services-swiper !pb-2"
+            className="services-swiper pb-2!"
           >
             {mainServices.map((service, index) => (
-              <SwiperSlide key={index} className="!h-auto flex">
-                <div className="w-full h-full min-h-[360px] sm:min-h-[380px] group relative rounded-2xl bg-neutral-900/70 hover:bg-neutral-900 border border-neutral-800/80 hover:border-red-500/40 p-6 sm:p-7 transition-all duration-300 flex flex-col justify-between shadow-lg hover:shadow-xl hover:shadow-red-600/10 backdrop-blur-sm">
+              <SwiperSlide key={index} className="h-auto! flex">
+                <div className="w-full h-full min-h-90 sm:min-h-95 group relative rounded-2xl bg-neutral-900/70 hover:bg-neutral-900 border border-neutral-800/80 hover:border-red-500/40 p-6 sm:p-7 transition-all duration-300 flex flex-col justify-between shadow-lg hover:shadow-xl hover:shadow-red-600/10 backdrop-blur-sm">
                   <div className="flex-1 flex flex-col">
                     {/* Card Top Row: Icon + Tag */}
                     <div className="flex items-center justify-between gap-3 mb-5">
@@ -253,9 +253,9 @@ export default function ServicesSection() {
                 <div className="w-8 h-8 rounded-lg bg-neutral-900 border border-neutral-800 flex items-center justify-center group-hover:scale-105 transition-transform">
                   {addon.icon}
                 </div>
-                <span className="text-xs font-semibold text-neutral-200 leading-tight block">
+                <h4 className="text-xs font-semibold text-neutral-200 leading-tight block">
                   {addon.title}
-                </span>
+                </h4>
                 <span className="text-[11px] font-semibold text-red-400 block">
                   {addon.price}
                 </span>
@@ -268,7 +268,7 @@ export default function ServicesSection() {
         <div className="flex justify-center">
           <a
             href="#contact-booking"
-            className="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-xl text-xs sm:text-sm font-semibold text-white bg-gradient-to-r from-red-600 to-red-700 hover:from-red-500 hover:to-red-600 shadow-lg shadow-red-600/25 hover:-translate-y-0.5 transition-all duration-200 border border-red-500/40"
+            className="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-xl text-xs sm:text-sm font-semibold text-white bg-linear-to-r from-red-600 to-red-700 hover:from-red-500 hover:to-red-600 shadow-lg shadow-red-600/25 hover:-translate-y-0.5 transition-all duration-200 border border-red-500/40"
           >
             {/* <CalendarOutlined className="text-sm" /> */}
             <span>Get a Free Quote</span>

@@ -57,9 +57,9 @@ export default function TrustBar() {
               </div>
               
               {/* Title */}
-              <h3 className="text-sm sm:text-base font-bold text-white font-['Outfit'] flex items-center gap-1">
+              <p className="text-sm sm:text-base font-bold text-white font-['Outfit'] flex items-center gap-1">
                 {item.title}
-              </h3>
+              </p>
 
               {/* Subtitle */}
               <p className="text-[11px] sm:text-xs text-neutral-400 mt-0.5 font-medium">
