@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.dosbrosdetailingmn.com/sitemap.xml
+Sitemap: https://dosbrosdetailingmn.com/sitemap.xml
