@@ -218,7 +218,7 @@ export default function OptionsComparisonSection() {
 
                 <div className="grid grid-cols-1 sm:grid-cols-12 py-3 sm:py-3.5 gap-1 sm:gap-4 items-baseline">
                   <span className="sm:col-span-4 text-[10px] sm:text-[11px] font-semibold text-neutral-400 uppercase tracking-wider">
-                    COST
+                    <a href="/cost-calculator" className='underline underline-offset-4 hover:text-red-500 decoration-red-400  text-red-500'>COST</a>
                   </span>
                   <span className="sm:col-span-8 text-neutral-100 font-medium">
                     {activeOption.cost}

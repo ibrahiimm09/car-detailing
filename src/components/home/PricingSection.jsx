@@ -197,7 +197,7 @@ export default function PricingSection() {
           </h2>
 
           <p className="text-sm sm:text-base text-neutral-400 font-normal leading-relaxed pt-1">
-            Most detailers around here make you call before they will tell you anything about price. We think that is annoying. Here is what we charge.
+            Most detailers around here make you call before they will tell you anything about <a href="/cost-calculator" className='underline decoration-red-400 underline-offset-4 hover:text-red-500 text-red-400'>detailing price</a>. We think that is annoying. Here is what we charge.
           </p>
 
           {/* Sleek Segmented Tabs Navigation (Zero Layout Shift, No Wrap, Smooth Transitions) */}
