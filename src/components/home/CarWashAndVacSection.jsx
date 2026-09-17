@@ -1,11 +1,7 @@
 import React from 'react';
 import { CalendarOutlined, PhoneOutlined } from '@ant-design/icons';
 
-// Swiper React Components & Modules for Small Screen Carousel
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay, Pagination } from 'swiper/modules';
-import 'swiper/css';
-import 'swiper/css/pagination';
+
 
 const detailVsWashData = [
   {
@@ -74,18 +70,18 @@ export default function CarWashAndVacSection() {
           </h2>
         </div>
 
-        {/* Minimalist Desktop & Tablet Comparison Table */}
-        <div className="hidden sm:block overflow-hidden rounded-2xl border border-neutral-800 bg-neutral-900/30">
-          <table className="w-full text-left border-collapse">
+        {/* Sleek, Minimal, Scrollable Comparison Table (Mobile & Desktop) */}
+        <div className="overflow-x-auto rounded-2xl border border-neutral-800 bg-neutral-900/30 backdrop-blur-sm shadow-2xl">
+          <table className="w-full min-w-160 text-left border-collapse">
             <thead>
               <tr className="border-b border-neutral-800 bg-neutral-900/70">
-                <th className="py-3.5 px-5 text-[11px] font-semibold text-neutral-400 uppercase tracking-wider w-[28%]">
+                <th className="py-3.5 px-5 text-[11px] font-semibold text-neutral-400 uppercase tracking-wider w-[28%] whitespace-nowrap">
                   Treatment Area
                 </th>
-                <th className="py-3.5 px-5 text-[11px] font-semibold text-neutral-400 uppercase tracking-wider w-[36%]">
+                <th className="py-3.5 px-5 text-[11px] font-semibold text-neutral-400 uppercase tracking-wider w-[36%] min-w-45">
                   A quick clean
                 </th>
-                <th className="py-3.5 px-5 text-[11px] font-bold text-red-400 uppercase tracking-wider w-[36%] bg-red-950/20">
+                <th className="py-3.5 px-5 text-[11px] font-bold text-red-400 uppercase tracking-wider w-[36%] min-w-55 bg-red-950/20">
                   A proper detail (Dos Bros)
                 </th>
               </tr>
@@ -93,80 +89,19 @@ export default function CarWashAndVacSection() {
             <tbody className="divide-y divide-neutral-800/60 text-xs sm:text-sm font-normal">
               {detailVsWashData.map((row, idx) => (
                 <tr key={idx} className="hover:bg-neutral-900/40 transition-colors">
-                  <td className="py-3.5 px-5 font-medium text-neutral-200">
+                  <td className="py-3.5 px-5 font-medium text-neutral-200 whitespace-nowrap">
                     {row.feature}
                   </td>
-                  <td className="py-3.5 px-5 text-neutral-400">
+                  <td className="py-3.5 px-5 text-neutral-400 leading-relaxed min-w-45">
                     {row.quickClean}
                   </td>
-                  <td className="py-3.5 px-5 text-neutral-200 bg-red-950/10 font-normal">
+                  <td className="py-3.5 px-5 text-neutral-200 bg-red-950/10 font-normal leading-relaxed min-w-55">
                     {row.properDetail}
                   </td>
                 </tr>
               ))}
             </tbody>
           </table>
-        </div>
-
-        {/* Mobile Swiper Carousel (Under 640px) */}
-        <div className="block sm:hidden">
-          <Swiper
-            modules={[Autoplay, Pagination]}
-            loop={true}
-            speed={600}
-            autoplay={{
-              delay: 3500,
-              disableOnInteraction: false,
-              pauseOnMouseEnter: true,
-            }}
-            pagination={{
-              clickable: true,
-              el: '.detail-vs-wash-pagination',
-              bulletClass: 'services-bullet',
-              bulletActiveClass: 'services-bullet-active',
-            }}
-            spaceBetween={16}
-            slidesPerView={1}
-            className="pb-0!"
-          >
-            {detailVsWashData.map((row, idx) => (
-              <SwiperSlide key={idx} className="h-auto! flex">
-                <div className="w-full p-5 rounded-2xl border border-neutral-800/90 bg-neutral-900/50 backdrop-blur-sm space-y-3.5 flex flex-col justify-between">
-                  <div className="flex items-center justify-between gap-2 pb-2.5 border-b border-neutral-800/80">
-                    <span className="text-sm font-bold text-white font-['Outfit']">
-                      {row.feature}
-                    </span>
-                    <span className="text-[10px] font-semibold text-neutral-400 px-2 py-0.5 rounded bg-neutral-950 border border-neutral-800">
-                      #{idx + 1} of {detailVsWashData.length}
-                    </span>
-                  </div>
-
-                  <div className="space-y-2.5 text-xs">
-                    <div className="p-3 rounded-xl bg-neutral-950/70 border border-neutral-800/70 space-y-1">
-                      <span className="text-[10px] font-semibold uppercase tracking-wider text-neutral-400 block">
-                        A quick clean
-                      </span>
-                      <p className="text-neutral-400 leading-relaxed font-normal">
-                        {row.quickClean}
-                      </p>
-                    </div>
-
-                    <div className="p-3 rounded-xl bg-red-950/20 border border-red-500/25 space-y-1">
-                      <span className="text-[10px] font-bold uppercase tracking-wider text-red-400 block">
-                        A proper detail (Dos Bros)
-                      </span>
-                      <p className="text-neutral-200 leading-relaxed font-normal">
-                        {row.properDetail}
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </SwiperSlide>
-            ))}
-          </Swiper>
-
-          {/* Swiper Pagination Dots Container */}
-          <div className="detail-vs-wash-pagination flex items-center justify-center gap-2 mt-6" />
         </div>
 
         {/* 2-Column Zero-Click & Value Math Cards */}

@@ -129,9 +129,9 @@ function PackageCard({ pkg }) {
           </div>
         </div>
 
-        <h4 className="text-xl font-bold text-white font-['Outfit'] mb-2">
+        <h3 className="text-xl font-bold text-white font-['Outfit'] mb-2">
           {pkg.name}
-        </h4>
+        </h3>
 
         <div className="flex items-baseline gap-1.5 pb-4 mb-5 border-b border-zinc-800/80">
           <span className="text-3xl sm:text-4xl font-black text-white font-['Outfit']">

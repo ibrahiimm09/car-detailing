@@ -145,7 +145,7 @@ export default function AboutHeroSection() {
           <div className="flex flex-wrap items-center justify-center gap-2.5 sm:gap-3 px-2">
             <a
               href="/contact"
-              className="group inline-flex items-center gap-2 px-5 sm:px-6 py-2.5 rounded-full text-xs sm:text-sm font-medium text-white bg-neutral-900 hover:bg-neutral-800 border border-neutral-700/80 hover:border-red-500/50 shadow-sm transition-all duration-300 hover:-translate-y-0.5 max-w-full"
+              className="inline-flex items-center justify-center gap-2 px-5 py-3.5 rounded-xl text-xs sm:text-sm font-medium text-neutral-300 hover:text-white bg-neutral-900/90 hover:bg-neutral-800 border border-neutral-800 shadow-sm hover:-translate-y-0.5 transition-all duration-200 backdrop-blur-md"
             >
               <span>Contact Us</span>
               <ArrowRight className="w-3.5 h-3.5 text-red-400 group-hover:translate-x-0.5 transition-transform" />
@@ -153,7 +153,7 @@ export default function AboutHeroSection() {
 
             <a
               href="tel:3202873573"
-              className="inline-flex items-center gap-2 px-4 sm:px-5 py-2.5 rounded-full text-xs sm:text-sm font-medium text-neutral-400 hover:text-white bg-transparent hover:bg-neutral-900/60 border border-transparent hover:border-neutral-800 transition-all duration-300 max-w-full"
+              className="inline-flex items-center gap-2 px-4 sm:px-5 py-3.5 rounded-xl text-xs sm:text-sm font-medium text-neutral-400 hover:text-white bg-transparent hover:bg-neutral-900/60 border border-transparent hover:border-neutral-800 transition-all duration-300 max-w-full"
             >
               <PhoneOutlined className="text-xs text-red-500" />
               <span>Call 320-287-3573</span>

@@ -240,9 +240,9 @@ export default function GoogleReviewsSlider() {
                         {review.initials}
                       </div>
                       <div className="min-w-0">
-                        <h4 className="text-white font-semibold text-xs sm:text-sm leading-snug truncate">
+                        <p className="text-white font-semibold text-xs sm:text-sm leading-snug truncate">
                           {review.name}
-                        </h4>
+                        </p>
                         <p className="text-[11px] text-neutral-400 truncate">
                           {review.timeAgo}
                         </p>

@@ -19,12 +19,12 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   const services = [
-    { name: 'Interior Detailing ', href: '' },
-    { name: 'Exterior & Hand Wash', href: '' },
-    { name: 'Full Detail Package', href: '' },
-    { name: 'Truck & Farm Vehicles ', href: '' },
-    { name: 'Fleet & Commercial ', href: '' },
-    { name: 'Boat & Pontoon Detailing', href: '' },
+    { name: 'Interior Detailing ', href: '/#services' },
+    { name: 'Exterior & Hand Wash', href: '/#services' },
+    { name: 'Full Detail Package', href: '/#services' },
+    { name: 'Truck & Farm Vehicles ', href: '/#services' },
+    { name: 'Fleet & Commercial ', href: '/#services' },
+    { name: 'Boat & Pontoon Detailing', href: '/#services' },
   ];
 
   const quickLinks = [

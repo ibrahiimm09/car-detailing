@@ -47,7 +47,7 @@ const steps = [
 ];
 
 // Reusable Step Card Component for Consistent Height & Styling
-function StepCard({ item }) {
+function StepCard({ item, titleTag: TitleTag = "h3" }) {
   return (
     <div className="w-full h-full min-h-95 group relative rounded-2xl bg-neutral-900/60 hover:bg-neutral-900/90 border border-neutral-800/80 hover:border-red-500/40 p-6 sm:p-8 transition-all duration-300 flex flex-col justify-between shadow-lg hover:shadow-xl hover:shadow-red-600/10 backdrop-blur-sm">
       {/* Step Number Watermark Accent */}
@@ -62,9 +62,9 @@ function StepCard({ item }) {
         </div>
 
         {/* Step Title */}
-        <h3 className="text-xl sm:text-2xl font-bold text-white font-['Outfit'] mb-3 group-hover:text-red-400 transition-colors">
+        <TitleTag className="text-xl sm:text-2xl font-bold text-white font-['Outfit'] mb-3 group-hover:text-red-400 transition-colors">
           {item.title}
-        </h3>
+        </TitleTag>
 
         {/* Main Description */}
         <p className="text-xs sm:text-sm text-neutral-300 leading-relaxed mb-4 font-normal">
@@ -135,7 +135,7 @@ export default function HowItWorksSection() {
           >
             {steps.map((item, index) => (
               <SwiperSlide key={index} className="h-auto! flex">
-                <StepCard item={item} />
+                <StepCard item={item} titleTag="p" />
               </SwiperSlide>
             ))}
           </Swiper>
@@ -146,7 +146,7 @@ export default function HowItWorksSection() {
         {/* 2. Medium, Desktop, Large Screens: 3-Column Progression Grid */}
         <div className="hidden md:grid md:grid-cols-3 gap-6 sm:gap-8 mb-14 sm:mb-16">
           {steps.map((item, index) => (
-            <StepCard key={index} item={item} />
+            <StepCard key={index} item={item} titleTag="h3" />
           ))}
         </div>
 
