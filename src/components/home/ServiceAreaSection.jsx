@@ -62,13 +62,14 @@ const serviceRegions = [
   }
 ];
 
-function RegionCard({ regionItem }) {
+function RegionCard({ regionItem, titleTag: TitleTag = "h3" }) {
   return (
     <div
-      className={`w-full h-full rounded-2xl p-6 sm:p-7 border backdrop-blur-md flex flex-col justify-between transition-all duration-300 ${regionItem.badge
+      className={`w-full h-full rounded-2xl p-6 sm:p-7 border backdrop-blur-md flex flex-col justify-between transition-all duration-300 ${
+        regionItem.badge
           ? 'bg-neutral-900/90 border-red-500/40 shadow-xl shadow-red-600/5 hover:border-red-500/60'
           : 'bg-neutral-950/80 border-neutral-800/90 hover:border-neutral-700/90 hover:bg-neutral-900/70'
-        }`}
+      }`}
     >
       <div>
         {/* Region Card Header */}
@@ -88,9 +89,9 @@ function RegionCard({ regionItem }) {
           </div>
         </div>
 
-        <h3 className="text-lg sm:text-xl font-bold text-white font-['Outfit'] mb-4 leading-snug">
+        <TitleTag className="text-lg sm:text-xl font-bold text-white font-['Outfit'] mb-4 leading-snug">
           {regionItem.region}
-        </h3>
+        </TitleTag>
 
         {/* Town Pills / Chips List */}
         <div className="flex flex-wrap gap-2 pt-1">
@@ -147,7 +148,7 @@ export default function ServiceAreaSection() {
         {/* 1. Desktop & Tablet Large Screen: Grid View */}
         <div className="hidden md:grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-14 sm:mb-16">
           {serviceRegions.map((regionItem, index) => (
-            <RegionCard key={index} regionItem={regionItem} />
+            <RegionCard key={index} regionItem={regionItem} titleTag="h3" />
           ))}
         </div>
 
@@ -174,7 +175,7 @@ export default function ServiceAreaSection() {
           >
             {serviceRegions.map((regionItem, index) => (
               <SwiperSlide key={index} className="!h-auto flex">
-                <RegionCard regionItem={regionItem} />
+                <RegionCard regionItem={regionItem} titleTag="p" />
               </SwiperSlide>
             ))}
           </Swiper>

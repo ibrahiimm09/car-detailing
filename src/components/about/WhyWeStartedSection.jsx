@@ -232,10 +232,10 @@ export default function WhyWeStartedSection() {
               <span>WHY WE STARTED</span>
             </div>
 
-            {/* H2 Heading */}
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white font-['Outfit'] tracking-tight leading-[1.15]">
+            {/* Mobile Title (p tag to avoid duplicate SEO H2 heading) */}
+            <p className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white font-['Outfit'] tracking-tight leading-[1.15]">
               Why We Started <span className="text-transparent bg-clip-text bg-linear-to-r from-red-500 to-amber-500">Dos Bros</span>
-            </h2>
+            </p>
 
             {/* Story Paragraphs */}
             <div className="space-y-3.5 text-xs sm:text-sm text-neutral-300 leading-relaxed font-light text-center">

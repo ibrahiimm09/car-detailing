@@ -264,9 +264,9 @@ export default function HowWeDoThingsSection() {
                           {step.tag}
                         </span>
                       </div>
-                      <h3 className="text-sm sm:text-base font-bold text-white font-['Outfit'] leading-snug">
+                      <p className="text-sm sm:text-base font-bold text-white font-['Outfit'] leading-snug">
                         {step.title}
-                      </h3>
+                      </p>
                       <p className="text-xs text-neutral-400 font-light leading-relaxed pt-2">
                         {step.description}
                       </p>

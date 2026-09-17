@@ -75,16 +75,16 @@ export default function ServiceAreaSection() {
 
         {/* Clean Minimal Responsive Service Areas Table */}
         <div className="overflow-x-auto rounded-2xl sm:rounded-3xl border border-neutral-800/90 bg-neutral-900/40 backdrop-blur-md shadow-2xl mb-14 sm:mb-16">
-          <table className="w-full text-left border-collapse">
+          <table className="w-full min-w-185 sm:min-w-full text-left border-collapse">
             <thead>
               <tr className="border-b border-neutral-800 bg-neutral-900/80">
-                <th className="py-3.5 sm:py-4 px-4 sm:px-6 text-[10.5px] sm:text-xs font-semibold text-neutral-300 uppercase tracking-wider w-[40%] sm:w-[32%] lg:w-[28%]">
+                <th className="py-3.5 sm:py-4 px-4 sm:px-6 text-[10.5px] sm:text-xs font-semibold text-neutral-300 uppercase tracking-wider w-[32%] lg:w-[28%] whitespace-nowrap">
                   <div className="flex items-center gap-1.5 sm:gap-2">
                     <span className="w-1.5 h-1.5 rounded-full bg-red-500" />
                     <span>Region / Area</span>
                   </div>
                 </th>
-                <th className="py-3.5 sm:py-4 px-4 sm:px-6 text-[10.5px] sm:text-xs font-semibold text-neutral-300 uppercase tracking-wider w-[60%] sm:w-[68%] lg:w-[72%] border-l border-neutral-800/80">
+                <th className="py-3.5 sm:py-4 px-4 sm:px-6 text-[10.5px] sm:text-xs font-semibold text-neutral-300 uppercase tracking-wider w-[68%] lg:w-[72%] border-l border-neutral-800/80 whitespace-nowrap">
                   <div className="flex items-center gap-1.5 sm:gap-2">
                     <span className="w-1.5 h-1.5 rounded-full bg-red-500/80" />
                     <span>Towns & Communities</span>
@@ -99,24 +99,24 @@ export default function ServiceAreaSection() {
                   className="hover:bg-neutral-800/25 transition-colors group"
                 >
                   {/* Column 1: Region / Area */}
-                  <td className="py-4 sm:py-5 px-4 sm:px-6 align-top">
-                    <div className="flex items-start gap-2.5 sm:gap-3.5">
-                      <div className="w-8 h-8 sm:w-9 sm:h-9 rounded-xl bg-neutral-900 border border-neutral-800 flex items-center justify-center shrink-0 mt-0.5 group-hover:border-neutral-700 transition-colors">
+                  <td className="py-4 sm:py-5 px-4 sm:px-6 align-middle whitespace-nowrap">
+                    <div className="flex items-center gap-2.5 sm:gap-3.5">
+                      <div className="w-8 h-8 sm:w-9 sm:h-9 rounded-xl bg-neutral-900 border border-neutral-800 flex items-center justify-center shrink-0 group-hover:border-neutral-700 transition-colors">
                         {regionItem.icon}
                       </div>
-                      <h3 className="text-xs sm:text-sm lg:text-[15px] font-bold text-white font-['Outfit'] leading-snug pt-1">
+                      <h3 className="text-xs sm:text-sm lg:text-[15px] font-bold text-white font-['Outfit'] leading-snug whitespace-nowrap">
                         {regionItem.region}
                       </h3>
                     </div>
                   </td>
 
                   {/* Column 2: Towns & Communities */}
-                  <td className="py-4 sm:py-5 px-4 sm:px-6 align-top border-l border-neutral-800/80">
+                  <td className="py-4 sm:py-5 px-4 sm:px-6 align-middle border-l border-neutral-800/80">
                     <div className="flex flex-wrap gap-1.5 sm:gap-2">
                       {regionItem.towns.map((town, tIdx) => (
                         <span
                           key={tIdx}
-                          className="inline-flex items-center gap-1 px-2.5 sm:px-3 py-1 sm:py-1.5 rounded-lg sm:rounded-xl bg-neutral-900/90 hover:bg-neutral-800 border border-neutral-800/90 hover:border-neutral-700 text-[11px] sm:text-xs text-neutral-200 font-medium transition-colors"
+                          className="inline-flex items-center gap-1 px-2.5 sm:px-3 py-1 sm:py-1.5 rounded-lg sm:rounded-xl bg-neutral-900/90 hover:bg-neutral-800 border border-neutral-800/90 hover:border-neutral-700 text-[11px] sm:text-xs text-neutral-200 font-medium transition-colors whitespace-nowrap shrink-0"
                         >
                           <span className="w-1.5 h-1.5 rounded-full bg-red-500/70 shrink-0" />
                           {town}

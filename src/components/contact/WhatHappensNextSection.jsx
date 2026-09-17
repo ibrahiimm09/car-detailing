@@ -154,9 +154,9 @@ export default function WhatHappensNextSection() {
                         </span>
                       </div>
 
-                      <h3 className="text-base font-normal text-white font-['Outfit'] tracking-tight leading-snug group-hover:text-red-400 transition-colors">
+                      <p className="text-base font-normal text-white font-['Outfit'] tracking-tight leading-snug group-hover:text-red-400 transition-colors">
                         {item.title}
-                      </h3>
+                      </p>
 
                       <p className="text-xs text-neutral-400 group-hover:text-neutral-300 font-light leading-relaxed mt-2 transition-colors">
                         {item.description}
