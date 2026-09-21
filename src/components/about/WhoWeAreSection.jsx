@@ -1,5 +1,5 @@
 import React from 'react';
-import dosBrosImg from '../../assets/dos-bros-detailing-founders-morris-mn.png';
+import dosBrosImg from '../../assets/dos-bros-detailing-founders-morris-mn.webp';
 import { 
   Users, 
   MapPin, 

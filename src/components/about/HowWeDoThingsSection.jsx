@@ -5,7 +5,6 @@ import {
   SlidersHorizontal, 
   ClipboardCheck 
 } from 'lucide-react';
-import truckImg from '../../assets/dos-bros-mobile-detailing-truck-morris-mn.jpg';
 
 const stepsData = [
   {
@@ -51,7 +50,6 @@ const stepsData = [
 ];
 
 export default function HowWeDoThingsSection() {
-  const truckImgSrc = typeof truckImg === 'object' ? truckImg.src : truckImg;
   const sectionRef = useRef(null);
   const [visibleItems, setVisibleItems] = useState({});
 
