@@ -4,7 +4,8 @@ import {
   X, 
   Droplets, 
   CloudRain, 
-  Sparkles 
+  Sparkles,
+  ArrowRight 
 } from 'lucide-react';
 
 const comparisonData = [
@@ -59,7 +60,7 @@ export default function WhyMobileSection() {
               Here is the thing we kept noticing. Around here, getting a real detail meant dropping your vehicle off somewhere and figuring out a ride. That is half a day gone. If you work a shift, run a farm, or have kids to get around, it is just not realistic. So most people put it off, and the vehicle stays dirty.
             </p>
             <p className="text-neutral-200 font-normal">
-              We come to you instead. Your driveway, your work lot, wherever the vehicle sits.
+              We come to you instead. Your driveway, your work lot, wherever the vehicle sits. We serve <a href="/service-areas" className="text-red-500 hover:text-red-400 hover:text-red-400 underline underline-offset-4 decoration-red-500 font-normal transition-colors">Morris and surrounding communities</a> across our mobile service area.
             </p>
             <p className="text-neutral-400">
               Now, a lot of people assume mobile means a lighter version of the real thing. It does not. Here is what we actually run into.
@@ -122,6 +123,17 @@ export default function WhyMobileSection() {
               ))}
             </tbody>
           </table>
+        </div>
+
+        {/* CTA: Our Packages and Prices */}
+        <div className="pt-2 sm:pt-4 flex justify-center">
+          <a
+            href="/cost-calculator"
+            className="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-7 py-3.5 rounded-xl text-xs sm:text-sm font-semibold text-white bg-linear-to-r from-red-600 to-red-700 hover:from-red-500 hover:to-red-600 shadow-lg shadow-red-600/25 hover:-translate-y-0.5 transition-all duration-200 border border-red-500/40 group"
+          >
+            <span>Our Packages and Prices</span>
+            {/* <ArrowRight className="w-4 h-4 text-white group-hover:translate-x-1 transition-transform" /> */}
+          </a>
         </div>
 
         {/* ========================================================================= */}

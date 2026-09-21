@@ -14,8 +14,18 @@ const stepsData = [
     iconColor: 'text-amber-400',
     iconBg: 'bg-amber-500/10 border-amber-500/20',
     title: 'You hear the price before we start, not after',
-    description:
-      'Almost every vehicle has something the photos missed. Heavier pet hair than it looked, a stain nobody mentioned, years of dust in places you cannot see. When that happens, we tell you while the vehicle is still untouched and you decide. Honestly, this is the thing that frustrates us most about our own industry. Nobody should find out about extra charges when they are handed the bill.'
+    description: (
+      <>
+        Almost every vehicle has something the photos missed. Heavier pet hair than it looked, a stain nobody mentioned, years of dust in places you cannot see. When that happens, we tell you while the vehicle is still untouched and you decide. Honestly, this is the thing that frustrates us most about our own industry. Nobody should find out about extra charges when they are handed the bill.{' '}
+        <a
+          href="/cost-calculator"
+          className="text-red-500 hover:text-red-400 underline underline-offset-4 decoration-red-500 font-normal transition-colors"
+        >
+          See our current packages and starting prices
+        </a>
+        .
+      </>
+    )
   },
   {
     number: 2,

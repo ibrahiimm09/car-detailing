@@ -1,7 +1,8 @@
 import React from 'react';
 import { 
   CalendarOutlined, 
-  PhoneOutlined 
+  PhoneOutlined ,
+  ExportOutlined
 } from '@ant-design/icons';
 import { 
   MapPin, 
@@ -141,7 +142,7 @@ export default function ServiceAreaSection() {
           </h2>
 
           <p className="text-sm sm:text-base text-neutral-400 font-normal leading-relaxed pt-1">
-            We are based in Morris and we travel. If your town is on this list, we come to you.
+            We are based in Morris and we travel. If your town is on this list, we come to you. <a href="/about" className="text-red-500 hover:text-red-400 hover:text-red-400 underline underline-offset-4 decoration-red-500 font-normal transition-colors">Learn more</a>
           </p>
         </div>
 
