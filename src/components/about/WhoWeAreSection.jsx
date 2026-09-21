@@ -49,9 +49,9 @@ export default function WhoWeAreSection() {
                   <div>
                     <div className="flex items-center gap-2">
                       <span className="w-2 h-2 rounded-full bg-red-500 animate-pulse" />
-                      <h3 className="font-['Outfit'] text-sm sm:text-base font-bold text-white leading-tight">
+                      <p className="font-['Outfit'] text-sm sm:text-base font-bold text-white leading-tight">
                         Reyes & Mariano
-                      </h3>
+                      </p>
                     </div>
                     <p className="text-[11px] sm:text-xs text-neutral-400 font-medium pt-0.5">
                       Founders & Mobile Detailers
