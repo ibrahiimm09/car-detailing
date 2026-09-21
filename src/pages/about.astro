@@ -8,6 +8,17 @@ import HowWeDoThingsSection from "../components/about/HowWeDoThingsSection.jsx";
 import AboutFaqSection from "../components/about/AboutFaqSection.jsx";
 import AboutCtaBanner from "../components/about/AboutCtaBanner.jsx";
 import ProjectGallerySection from "../components/home/ProjectGallerySection.jsx";
+import foundersImg from "../assets/dos-bros-detailing-founders-morris-mn.webp";
+import teamHeroImg from "../assets/about/dos-bros-auto-detailing-team-morris-mn.webp";
+import { getAboutSchema } from "../data/aboutSchema.js";
+
+const siteUrl = "https://dosbrosdetailingmn.com";
+const foundersImgUrl = new URL(foundersImg.src, siteUrl).toString();
+const teamHeroImgUrl = new URL(teamHeroImg.src, siteUrl).toString();
+const aboutSchema = getAboutSchema({
+  foundersImageUrl: foundersImgUrl,
+  teamHeroImageUrl: teamHeroImgUrl,
+});
 ---
 
 <Layout
@@ -15,6 +26,7 @@ import ProjectGallerySection from "../components/home/ProjectGallerySection.jsx"
   description="Meet the brothers behind Dos Bros Detailing, a local mobile detailing business serving Morris, MN and surrounding communities. Learn our story."
   showNav={true}
   showFooter={true}
+  schema={aboutSchema}
 >
   <AboutHeroSection client:load />
   <WhoWeAreSection client:visible />

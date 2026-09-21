@@ -12,6 +12,7 @@ interface Props {
 	image?: string;
 	preloadImage?: string;
 	noindex?: boolean;
+	schema?: Record<string, any>;
 }
 
 const {
@@ -22,6 +23,7 @@ const {
 	image = "/logo.webp",
 	preloadImage,
 	noindex = false,
+	schema,
 } = Astro.props;
 
 const siteUrl = "https://dosbrosdetailingmn.com";
@@ -86,64 +88,16 @@ const ogImageURL = new URL(image, siteUrl).toString();
 		<meta property="twitter:description" content={description} />
 		<meta property="twitter:image" content={ogImageURL} />
 
-		<!-- Schema.org LocalBusiness Structured Data (JSON-LD) for Rich Snippets -->
-		<script
-			type="application/ld+json"
-			is:inline
-			set:html={JSON.stringify({
-				"@context": "https://schema.org",
-				"@type": "AutoRepair",
-				additionalType: "https://en.wikipedia.org/wiki/Auto_detailing",
-				name: "Dos Bros Auto Detailing",
-				description: description,
-				url: siteUrl,
-				logo: `${siteUrl}/logo.webp`,
-				image: `${siteUrl}/logo.webp`,
-				telephone: "+1-320-287-3573",
-				priceRange: "$$",
-				address: {
-					"@type": "PostalAddress",
-					addressLocality: "Morris",
-					addressRegion: "MN",
-					postalCode: "56267",
-					addressCountry: "US",
-				},
-				geo: {
-					"@type": "GeoCoordinates",
-					latitude: 45.5861,
-					longitude: -95.9139,
-				},
-				areaServed: [
-					{ "@type": "City", name: "Morris" },
-					{ "@type": "City", name: "Alexandria" },
-					{ "@type": "City", name: "Glenwood" },
-					{ "@type": "City", name: "Starbuck" },
-					{ "@type": "City", name: "Benson" },
-					{ "@type": "City", name: "Hancock" },
-					{ "@type": "City", name: "Chokio" },
-				],
-				openingHoursSpecification: [
-					{
-						"@type": "OpeningHoursSpecification",
-						dayOfWeek: [
-							"Monday",
-							"Tuesday",
-							"Wednesday",
-							"Thursday",
-							"Friday",
-							"Saturday",
-						],
-						opens: "08:00",
-						closes: "19:00",
-					},
-				],
-				aggregateRating: {
-					"@type": "AggregateRating",
-					ratingValue: "5.0",
-					reviewCount: "48",
-				},
-			})}
-		/>
+		<!-- Schema.org Structured Data (JSON-LD) for Rich Snippets -->
+		{
+			schema && (
+				<script
+					type="application/ld+json"
+					is:inline
+					set:html={JSON.stringify(schema)}
+				/>
+			)
+		}
 
 		<!-- Google Fonts for sleek automotive typography (Optimized Non-Render-Blocking) -->
 		<link rel="preconnect" href="https://fonts.googleapis.com" />

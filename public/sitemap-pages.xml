@@ -1,44 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-  <!-- Homepage -->
   <url>
     <loc>https://dosbrosdetailingmn.com/</loc>
-    <lastmod>2026-09-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <lastmod>2026-09-21T20:26:15+00:00</lastmod>
+    <priority>1.0000</priority>
   </url>
-
-  <!-- About -->
   <url>
-    <loc>https://dosbrosdetailingmn.com/about</loc>
-    <lastmod>2026-09-16</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://dosbrosdetailingmn.com/about/</loc>
+    <lastmod>2026-09-21T20:26:15+00:00</lastmod>
+    <priority>0.6400</priority>
   </url>
-
-  <!-- Cost Calculator -->
   <url>
-    <loc>https://dosbrosdetailingmn.com/cost-calculator</loc>
-    <lastmod>2026-09-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <loc>https://dosbrosdetailingmn.com/cost-calculator/</loc>
+    <lastmod>2026-09-21T20:26:15+00:00</lastmod>
+    <priority>0.6400</priority>
   </url>
-
-  <!-- Service Areas -->
   <url>
-    <loc>https://dosbrosdetailingmn.com/service-areas</loc>
-    <lastmod>2026-09-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://dosbrosdetailingmn.com/service-areas/</loc>
+    <lastmod>2026-09-21T20:26:15+00:00</lastmod>
+    <priority>0.6400</priority>
   </url>
-
-  <!-- Contact -->
   <url>
-    <loc>https://dosbrosdetailingmn.com/contact</loc>
-    <lastmod>2026-09-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <loc>https://dosbrosdetailingmn.com/contact/</loc>
+    <lastmod>2026-09-21T20:26:15+00:00</lastmod>
+    <priority>0.6400</priority>
   </url>
-
 </urlset>

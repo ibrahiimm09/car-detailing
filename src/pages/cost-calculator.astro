@@ -9,6 +9,11 @@ import IsItWorthItSection from '../components/prices/IsItWorthItSection.jsx';
 import ServiceTimeSection from '../components/prices/ServiceTimeSection.jsx';
 import PricingFaqSection from '../components/prices/PricingFaqSection.jsx';
 import PricingCtaSection from '../components/prices/PricingCtaSection.jsx';
+import { getCostCalculatorSchema } from '../data/costCalculatorSchema.js';
+
+const siteUrl = 'https://dosbrosdetailingmn.com';
+const calculatorHeroImgUrl = new URL(calculatorHeroImg.src, siteUrl).toString();
+const costCalculatorSchema = getCostCalculatorSchema(calculatorHeroImgUrl);
 ---
 
 <Layout 
@@ -17,6 +22,7 @@ import PricingCtaSection from '../components/prices/PricingCtaSection.jsx';
   showNav={true}
   showFooter={true}
   preloadImage={calculatorHeroImg.src}
+  schema={costCalculatorSchema}
 >
   <CostCalculatorHeroSection />
   <CostCalculatorSection client:load />

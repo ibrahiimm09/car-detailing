@@ -1,0 +1,62 @@
+/* Dos Bros Detailing - Custom XML Sitemap Stylesheet */
+body {
+  background-color: #0a0a0a !important;
+  color: #e5e5e5 !important;
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
+  margin: 0;
+  padding: 2.5rem 1rem;
+}
+
+#header {
+  background: linear-gradient(135deg, #171717 0%, #0d0d0d 100%) !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  border-radius: 16px !important;
+  padding: 2rem !important;
+  margin-bottom: 2rem !important;
+  color: #ffffff !important;
+}
+
+h1 {
+  color: #ffffff !important;
+  font-family: 'Outfit', sans-serif !important;
+  font-size: 2rem !important;
+}
+
+a {
+  color: #fb2c36 !important;
+  text-decoration: none !important;
+  transition: color 0.15s ease !important;
+}
+
+a:hover {
+  color: #ff6467 !important;
+}
+
+table {
+  width: 100% !important;
+  border-collapse: collapse !important;
+  background: #121212 !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  border-radius: 16px !important;
+  overflow: hidden !important;
+}
+
+th {
+  background: #171717 !important;
+  color: #a3a3a3 !important;
+  padding: 1rem 1.25rem !important;
+  text-transform: uppercase !important;
+  font-size: 12px !important;
+  letter-spacing: 0.08em !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
+}
+
+td {
+  padding: 1rem 1.25rem !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.04) !important;
+  color: #d4d4d4 !important;
+}
+
+tr:hover td {
+  background: rgba(255, 255, 255, 0.03) !important;
+}

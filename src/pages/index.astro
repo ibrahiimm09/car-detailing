@@ -18,6 +18,12 @@ import MorrisConditionsCostSection from "../components/home/MorrisConditionsCost
 import ProjectGallerySection from "../components/home/ProjectGallerySection.jsx";
 import FaqSection from "../components/home/FaqSection.jsx";
 import FinalCtaSection from "../components/home/FinalCtaSection.jsx";
+import foundersImg from "../assets/dos-bros-detailing-founders-morris-mn.webp";
+import { getHomeSchema } from "../data/homeSchema.js";
+
+const siteUrl = "https://dosbrosdetailingmn.com";
+const foundersImgUrl = new URL(foundersImg.src, siteUrl).toString();
+const homeSchema = getHomeSchema(foundersImgUrl);
 ---
 
 <Layout
@@ -26,6 +32,7 @@ import FinalCtaSection from "../components/home/FinalCtaSection.jsx";
 	showNav={true}
 	showFooter={true}
 	preloadImage={heroBackground.src}
+	schema={homeSchema}
 >
 	<HeroSection />
 	<TrustBar />

@@ -7,6 +7,11 @@ import WhatHappensNextSection from "../components/contact/WhatHappensNextSection
 import SpeedUpQuoteSection from "../components/contact/SpeedUpQuoteSection.jsx";
 import ServiceAreaSection from "../components/contact/ServiceAreaSection.jsx";
 import ContactFaqSection from "../components/contact/ContactFaqSection.jsx";
+import { getContactSchema } from "../data/contactSchema.js";
+
+const siteUrl = "https://dosbrosdetailingmn.com";
+const contactHeroImgUrl = new URL(contactHeroImg.src, siteUrl).toString();
+const contactSchema = getContactSchema(contactHeroImgUrl);
 ---
 
 <Layout
@@ -15,6 +20,7 @@ import ContactFaqSection from "../components/contact/ContactFaqSection.jsx";
   showNav={true}
   showFooter={true}
   preloadImage={contactHeroImg.src}
+  schema={contactSchema}
 >
   <ContactHeroSection />
   <ContactReachAndFormSection client:load />

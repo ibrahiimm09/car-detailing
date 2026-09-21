@@ -7,6 +7,11 @@ import ServiceAreaSection from '../components/service-areas/ServiceAreaSection.j
 import WhatWeBringSection from '../components/service-areas/WhatWeBringSection.jsx';
 import ServiceAreaFaqSection from '../components/service-areas/ServiceAreaFaqSection.jsx';
 import ServiceAreaCtaSection from '../components/service-areas/ServiceAreaCtaSection.jsx';
+import { getServiceAreasSchema } from '../data/serviceAreasSchema.js';
+
+const siteUrl = 'https://dosbrosdetailingmn.com';
+const serviceAreaHeroImgUrl = new URL(serviceAreaHeroImg.src, siteUrl).toString();
+const serviceAreasSchema = getServiceAreasSchema(serviceAreaHeroImgUrl);
 ---
 
 <Layout 
@@ -15,6 +20,7 @@ import ServiceAreaCtaSection from '../components/service-areas/ServiceAreaCtaSec
   showNav={true}
   showFooter={true}
   preloadImage={serviceAreaHeroImg.src}
+  schema={serviceAreasSchema}
 >
   <ServiceAreaHeroSection />
   <!-- <HowTravelWorksSection client:visible /> -->

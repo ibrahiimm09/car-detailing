@@ -1,133 +1,214 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
-  <!-- Homepage Gallery Images -->
+  <!-- Home Page & Project Gallery Images -->
   <url>
     <loc>https://dosbrosdetailingmn.com/</loc>
     <image:image>
-      <image:loc>https://dosbrosdetailingmn.com/gallery/morris-mn-paint-correction-detailing.webp</image:loc>
-      <image:title>Professional paint correction detailing on a sedan in Morris, MN</image:title>
+      <image:loc>https://dosbrosdetailingmn.com/logo.webp</image:loc>
+      <image:title>Dos Bros Auto Detailing Logo</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://dosbrosdetailingmn.com/gallery/stevens-county-interior-car-detailing.webp</image:loc>
-      <image:title>Deep interior car detailing with steam cleaning in Stevens County</image:title>
+      <image:loc>https://dosbrosdetailingmn.com/_astro/morris-mn-car-detailing-hero-background.CfaY5roR.webp</image:loc>
+      <image:title>Morris MN Car Detailing Hero Background</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://dosbrosdetailingmn.com/gallery/morris-mn-ceramic-coating-protection.webp</image:loc>
-      <image:title>Ceramic coating application for long-lasting paint protection in Morris, MN</image:title>
+      <image:loc>https://dosbrosdetailingmn.com/_astro/morris-mn-auto-detailing-mobile-hero.BucNkOuG.webp</image:loc>
+      <image:title>Morris MN Auto Detailing Mobile Hero</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://dosbrosdetailingmn.com/gallery/hancock-mn-interior-revival-detailing.webp</image:loc>
-      <image:title>Full interior revival and leather restoration in Hancock, MN</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://dosbrosdetailingmn.com/gallery/chokio-mn-exterior-hand-wash-detailing.webp</image:loc>
-      <image:title>Hand wash and exterior detailing service in Chokio, MN</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://dosbrosdetailingmn.com/gallery/morris-mn-deep-clean-auto-detailing.webp</image:loc>
-      <image:title>Deep clean auto detailing removing dirt and grime in Morris, MN</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://dosbrosdetailingmn.com/gallery/alberta-mn-paint-protection-detailing.webp</image:loc>
-      <image:title>Paint protection film and sealant application in Alberta, MN</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://dosbrosdetailingmn.com/gallery/donnelly-mn-carpet-seat-extraction.webp</image:loc>
-      <image:title>Hot water carpet and seat extraction cleaning in Donnelly, MN</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://dosbrosdetailingmn.com/gallery/stevens-county-truck-suv-detailing.webp</image:loc>
-      <image:title>Truck and SUV full detail service in Stevens County, Minnesota</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://dosbrosdetailingmn.com/gallery/morris-mn-car-interior-detail-cleaning.webp</image:loc>
-      <image:title>Car interior detail cleaning including dashboard and console in Morris</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://dosbrosdetailingmn.com/gallery/cyrus-mn-two-step-polish-scratch-removal.webp</image:loc>
-      <image:title>Two-step paint polish and scratch removal service in Cyrus, MN</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://dosbrosdetailingmn.com/gallery/morris-mn-full-car-detail-package.webp</image:loc>
-      <image:title>Complete full car detail package with interior and exterior in Morris, MN</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://dosbrosdetailingmn.com/gallery/morris-mn-wheels-and-tires-detailing.webp</image:loc>
-      <image:title>Wheels and tires cleaning with tire dressing applied in Morris</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://dosbrosdetailingmn.com/gallery/glenwood-mn-interior-exterior-car-detailing.webp</image:loc>
-      <image:title>Combined interior and exterior car detailing in Glenwood, MN</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://dosbrosdetailingmn.com/gallery/morris-mn-auto-paint-enhancement.webp</image:loc>
-      <image:title>Auto paint enhancement and gloss boost on a vehicle in Morris, MN</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://dosbrosdetailingmn.com/gallery/stevens-county-headlight-restoration-detailing.webp</image:loc>
-      <image:title>Headlight restoration and lens clarity service in Stevens County</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://dosbrosdetailingmn.com/gallery/morris-mn-leather-seat-conditioning.webp</image:loc>
-      <image:title>Leather seat conditioning and UV protection treatment in Morris</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://dosbrosdetailingmn.com/gallery/hancock-mn-vehicle-deep-cleaning.webp</image:loc>
-      <image:title>Vehicle deep cleaning with stain removal in Hancock, MN</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://dosbrosdetailingmn.com/gallery/morris-mn-engine-bay-detailing.webp</image:loc>
-      <image:title>Engine bay detailing and degreasing service in Morris, MN</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://dosbrosdetailingmn.com/gallery/chokio-mn-car-interior-vacuum-steam.webp</image:loc>
-      <image:title>Interior vacuum and steam cleaning for a car in Chokio, MN</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://dosbrosdetailingmn.com/gallery/morris-mn-ceramic-gloss-shield.webp</image:loc>
-      <image:title>Ceramic gloss shield coating for maximum paint shine in Morris</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://dosbrosdetailingmn.com/gallery/stevens-county-exterior-foam-wash.webp</image:loc>
-      <image:title>Exterior foam wash and rinse detailing in Stevens County, MN</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://dosbrosdetailingmn.com/gallery/alberta-mn-dashboard-console-restoration.webp</image:loc>
-      <image:title>Dashboard and center console restoration detailing in Alberta, MN</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://dosbrosdetailingmn.com/gallery/morris-mn-pet-hair-removal-service.webp</image:loc>
-      <image:title>Pet hair removal and odor elimination service in Morris, MN</image:title>
+      <image:loc>https://dosbrosdetailingmn.com/_astro/dos-bros-detailing-founders-morris-mn.BUOXOcKX.webp</image:loc>
+      <image:title>Dos Bros Detailing Founders Morris MN</image:title>
     </image:image>
     <image:image>
       <image:loc>https://dosbrosdetailingmn.com/gallery/donnelly-mn-luxury-car-detailing.webp</image:loc>
-      <image:title>Luxury car detailing with premium products in Donnelly, MN</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://dosbrosdetailingmn.com/gallery/morris-mn-suv-trunk-cargo-cleaning.webp</image:loc>
-      <image:title>SUV trunk and cargo area deep cleaning in Morris, MN</image:title>
+      <image:title>Luxury car detailing in Donnelly, MN</image:title>
     </image:image>
     <image:image>
       <image:loc>https://dosbrosdetailingmn.com/gallery/cyrus-mn-exterior-polish-shine.webp</image:loc>
-      <image:title>Exterior polish and high-gloss shine finish in Cyrus, MN</image:title>
+      <image:title>Exterior polish and shine in Cyrus, MN</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://dosbrosdetailingmn.com/gallery/morris-mn-complete-auto-spa-detail.webp</image:loc>
-      <image:title>Complete auto spa detail with clay bar treatment in Morris, MN</image:title>
+      <image:loc>https://dosbrosdetailingmn.com/gallery/chokio-mn-exterior-hand-wash-detailing.webp</image:loc>
+      <image:title>Exterior hand wash detailing in Chokio, MN</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://dosbrosdetailingmn.com/gallery/stevens-county-ceramic-spray-protection.webp</image:loc>
-      <image:title>Ceramic spray protection for weather resistance in Stevens County</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://dosbrosdetailingmn.com/gallery/morris-mn-rim-brake-dust-removal.webp</image:loc>
-      <image:title>Rim cleaning and brake dust removal detailing in Morris, MN</image:title>
+      <image:loc>https://dosbrosdetailingmn.com/gallery/alberta-mn-paint-protection-detailing.webp</image:loc>
+      <image:title>Paint protection detailing in Alberta, MN</image:title>
     </image:image>
     <image:image>
       <image:loc>https://dosbrosdetailingmn.com/gallery/glenwood-mn-car-wax-paint-sealant.webp</image:loc>
-      <image:title>Car wax and paint sealant application in Glenwood, MN</image:title>
+      <image:title>Car wax and paint sealant in Glenwood, MN</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://dosbrosdetailingmn.com/gallery/morris-mn-pet-hair-removal-service.webp</image:loc>
+      <image:title>Pet hair removal service in Morris, MN</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://dosbrosdetailingmn.com/gallery/morris-mn-complete-auto-spa-detail.webp</image:loc>
+      <image:title>Complete auto spa detail in Morris, MN</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://dosbrosdetailingmn.com/gallery/morris-mn-full-car-detail-package.webp</image:loc>
+      <image:title>Full car detail package in Morris, MN</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://dosbrosdetailingmn.com/gallery/morris-mn-suv-trunk-cargo-cleaning.webp</image:loc>
+      <image:title>SUV trunk and cargo cleaning in Morris, MN</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://dosbrosdetailingmn.com/gallery/morris-mn-paint-correction-detailing.webp</image:loc>
+      <image:title>Paint correction detailing in Morris, MN</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://dosbrosdetailingmn.com/gallery/stevens-county-ceramic-spray-protection.webp</image:loc>
+      <image:title>Ceramic spray protection in Stevens County</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://dosbrosdetailingmn.com/gallery/cyrus-mn-two-step-polish-scratch-removal.webp</image:loc>
+      <image:title>Two step polish and scratch removal in Cyrus, MN</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://dosbrosdetailingmn.com/gallery/chokio-mn-car-interior-vacuum-steam.webp</image:loc>
+      <image:title>Car interior vacuum and steam cleaning in Chokio, MN</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://dosbrosdetailingmn.com/gallery/morris-mn-ceramic-coating-protection.webp</image:loc>
+      <image:title>Ceramic coating protection in Morris, MN</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://dosbrosdetailingmn.com/gallery/morris-mn-auto-paint-enhancement.webp</image:loc>
+      <image:title>Auto paint enhancement in Morris, MN</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://dosbrosdetailingmn.com/gallery/donnelly-mn-carpet-seat-extraction.webp</image:loc>
+      <image:title>Carpet and seat extraction cleaning in Donnelly, MN</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://dosbrosdetailingmn.com/gallery/morris-mn-ceramic-gloss-shield.webp</image:loc>
+      <image:title>Ceramic gloss shield in Morris, MN</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://dosbrosdetailingmn.com/gallery/glenwood-mn-interior-exterior-car-detailing.webp</image:loc>
+      <image:title>Interior and exterior car detailing in Glenwood, MN</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://dosbrosdetailingmn.com/gallery/morris-mn-engine-bay-detailing.webp</image:loc>
+      <image:title>Engine bay detailing in Morris, MN</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://dosbrosdetailingmn.com/gallery/stevens-county-truck-suv-detailing.webp</image:loc>
+      <image:title>Truck and SUV detailing in Stevens County</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://dosbrosdetailingmn.com/gallery/stevens-county-headlight-restoration-detailing.webp</image:loc>
+      <image:title>Headlight restoration detailing in Stevens County</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://dosbrosdetailingmn.com/gallery/stevens-county-exterior-foam-wash.webp</image:loc>
+      <image:title>Exterior foam wash in Stevens County</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://dosbrosdetailingmn.com/gallery/morris-mn-wheels-and-tires-detailing.webp</image:loc>
+      <image:title>Wheels and tires detailing in Morris, MN</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://dosbrosdetailingmn.com/gallery/hancock-mn-interior-revival-detailing.webp</image:loc>
+      <image:title>Interior revival detailing in Hancock, MN</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://dosbrosdetailingmn.com/gallery/morris-mn-car-interior-detail-cleaning.webp</image:loc>
+      <image:title>Car interior detail cleaning in Morris, MN</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://dosbrosdetailingmn.com/gallery/stevens-county-interior-car-detailing.webp</image:loc>
+      <image:title>Interior car detailing in Stevens County</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://dosbrosdetailingmn.com/gallery/morris-mn-deep-clean-auto-detailing.webp</image:loc>
+      <image:title>Deep clean auto detailing in Morris, MN</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://dosbrosdetailingmn.com/gallery/morris-mn-leather-seat-conditioning.webp</image:loc>
+      <image:title>Leather seat conditioning in Morris, MN</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://dosbrosdetailingmn.com/gallery/alberta-mn-dashboard-console-restoration.webp</image:loc>
+      <image:title>Dashboard and console restoration in Alberta, MN</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://dosbrosdetailingmn.com/gallery/morris-mn-rim-brake-dust-removal.webp</image:loc>
+      <image:title>Rim and brake dust removal in Morris, MN</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://dosbrosdetailingmn.com/gallery/hancock-mn-vehicle-deep-cleaning.webp</image:loc>
+      <image:title>Vehicle deep cleaning in Hancock, MN</image:title>
+    </image:image>
+  </url>
+
+  <!-- About Page Images -->
+  <url>
+    <loc>https://dosbrosdetailingmn.com/about</loc>
+    <image:image>
+      <image:loc>https://dosbrosdetailingmn.com/_astro/dos-bros-auto-detailing-team-morris-mn.BIaVY_rK.webp</image:loc>
+      <image:title>Dos Bros Auto Detailing Team Morris MN</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://dosbrosdetailingmn.com/_astro/dos-bros-detailing-founders-morris-mn.BUOXOcKX.webp</image:loc>
+      <image:title>Dos Bros Detailing Founders Morris MN</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://dosbrosdetailingmn.com/_astro/truck-interior-detailing.Cb_sN3v_.webp</image:loc>
+      <image:title>Truck Interior Detailing</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://dosbrosdetailingmn.com/_astro/landcruiserexteriordetailing.Bo83FQRC.webp</image:loc>
+      <image:title>Land Cruiser Exterior Detailing</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://dosbrosdetailingmn.com/_astro/toyotaexteriordetailing.BeoOsgM1.webp</image:loc>
+      <image:title>Toyota Exterior Detailing</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://dosbrosdetailingmn.com/_astro/detailcleansteering.DwSVE7xW.webp</image:loc>
+      <image:title>Detail Clean Steering Wheel</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://dosbrosdetailingmn.com/_astro/toyotasteeringcleanwash.-KQbp3xH.webp</image:loc>
+      <image:title>Toyota Steering Clean Wash</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://dosbrosdetailingmn.com/_astro/carseatsleatherclean.DiOQdbjX.webp</image:loc>
+      <image:title>Car Seats Leather Clean</image:title>
+    </image:image>
+  </url>
+
+  <!-- Cost Calculator Page Image -->
+  <url>
+    <loc>https://dosbrosdetailingmn.com/cost-calculator</loc>
+    <image:image>
+      <image:loc>https://dosbrosdetailingmn.com/_astro/car-detailing-cost-calculator-morris-mn.BXZJoag3.webp</image:loc>
+      <image:title>Car Detailing Cost Calculator Morris MN</image:title>
+    </image:image>
+  </url>
+
+  <!-- Service Areas Page Image -->
+  <url>
+    <loc>https://dosbrosdetailingmn.com/service-areas</loc>
+    <image:image>
+      <image:loc>https://dosbrosdetailingmn.com/_astro/morris-mn-car-detailing-service-areas.l9o3_wMS.webp</image:loc>
+      <image:title>Morris MN Car Detailing Service Areas</image:title>
+    </image:image>
+  </url>
+
+  <!-- Contact Page Image -->
+  <url>
+    <loc>https://dosbrosdetailingmn.com/contact</loc>
+    <image:image>
+      <image:loc>https://dosbrosdetailingmn.com/_astro/contact-dos-bros-car-detailing-morris-mn.B4WUA5yl.webp</image:loc>
+      <image:title>Contact Dos Bros Car Detailing Morris MN</image:title>
     </image:image>
   </url>
 
