@@ -1,6 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import heroBackground from "../assets/morris-mn-premium-car-detailing-hero.webp";
+import heroBackgroundDesktop from "../assets/morris-mn-car-detailing-hero-background.webp";
+import heroBackgroundMobile from "../assets/morris-mn-auto-detailing-mobile-hero.webp";
 import HeroSection from "../components/home/HeroSection.jsx";
 import TrustBar from "../components/home/TrustBar.jsx";
 import ServicesSection from "../components/home/ServicesSection.jsx";
@@ -31,7 +32,8 @@ const homeSchema = getHomeSchema(foundersImgUrl);
 	description="Professional mobile car detailing and hand car washing in Morris, MN. Dos Bros Detailing comes to your driveway, workplace, or farm site. Get a free quote."
 	showNav={true}
 	showFooter={true}
-	preloadImage={heroBackground.src}
+	preloadImage={heroBackgroundDesktop.src}
+	preloadImageMobile={heroBackgroundMobile.src}
 	schema={homeSchema}
 >
 	<HeroSection />

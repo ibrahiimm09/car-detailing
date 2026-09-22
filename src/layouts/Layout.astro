@@ -13,6 +13,7 @@ interface Props {
 	showFooter?: boolean;
 	image?: string;
 	preloadImage?: string;
+	preloadImageMobile?: string;
 	noindex?: boolean;
 	schema?: Record<string, any>;
 }
@@ -24,6 +25,7 @@ const {
 	showFooter = true,
 	image = "/logo.webp",
 	preloadImage,
+	preloadImageMobile,
 	noindex = false,
 	schema,
 } = Astro.props;
@@ -64,13 +66,34 @@ const ogImageURL = new URL(image, siteUrl).toString();
 		{noindex && <meta name="robots" content="noindex, nofollow" />}
 		<link rel="canonical" href={canonicalURL} />
 		{
-			preloadImage && (
-				<link
-					rel="preload"
-					as="image"
-					href={preloadImage}
-					fetchpriority="high"
-				/>
+			preloadImageMobile ? (
+				<>
+					<link
+						rel="preload"
+						as="image"
+						href={preloadImageMobile}
+						media="(max-width: 767px)"
+						fetchpriority="high"
+					/>
+					{preloadImage && (
+						<link
+							rel="preload"
+							as="image"
+							href={preloadImage}
+							media="(min-width: 768px)"
+							fetchpriority="high"
+						/>
+					)}
+				</>
+			) : (
+				preloadImage && (
+					<link
+						rel="preload"
+						as="image"
+						href={preloadImage}
+						fetchpriority="high"
+					/>
+				)
 			)
 		}
 
