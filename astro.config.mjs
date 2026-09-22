@@ -22,9 +22,6 @@ export default defineConfig({
             if (id.includes('node_modules/antd') || id.includes('node_modules/@ant-design')) {
               return 'vendor-antd';
             }
-            if (id.includes('node_modules/swiper')) {
-              return 'vendor-swiper';
-            }
           }
         }
       }
